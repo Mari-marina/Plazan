@@ -289,5 +289,5 @@ exports.default = watch;
 var ghPages = require("gulp-gh-pages");
 
 gulp.task("deploy", function () {
-  return gulp.src("./build/**/*").pipe(ghPages());
+  return gulp.src("./dist/**/*").pipe(ghPages());
 });
