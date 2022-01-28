@@ -286,7 +286,6 @@ exports.default = watch;
 // 2. B консоли пишем npm install (установятся все нужные модули);
 // 3. Соблюдаем файловую структуру или в сборках подправляем пути "откуда берем"/"куда кладем" файлы.
 
-var gulp = require("gulp");
 var ghPages = require("gulp-gh-pages");
 
 gulp.task("deploy", function () {
