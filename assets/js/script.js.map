@@ -1,0 +1,1 @@
+{"version":3,"sources":["lib.js","main.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;ACHA;AACA;AACA;AACA","file":"script.js","sourcesContent":["function test(a, b) {\r\n    return a + b\r\n}\r\n","console.log(test(5, 2));\r\nconsole.log(test(2, 4));\r\nconsole.log(test(9, 1));\r\n"]}
