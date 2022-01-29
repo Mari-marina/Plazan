@@ -13,6 +13,27 @@
   src: url(./../fonts/Lato-SemiBold.ttf);
 }
 
+@font-face {
+  font-family: "Lato Bold";
+  src: url(./../fonts/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: "Lato-Black";
+  src: url(./../fonts/Lato-Black.ttf);
+}
+@font-face {
+  font-family: "Lato-Ligh";
+  src: url(./../fonts/Lato-Light.ttf);
+}
+@font-face {
+  font-family: "Lato-Regular";
+  src: url(./../fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "Lato-Medium";
+  src: url(./../fonts/Lato-Medium.ttf);
+}
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -27,6 +48,7 @@ html {
 
 body {
   margin: 0;
+  color: #111111;
 }
 
 button {
@@ -54,8 +76,10 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
+  font-family: Lato-Ligh;
 }
 
 h1 {
@@ -371,12 +395,16 @@ template {
 }
 li {
   list-style-type: none;
+  font-family: Lato-Ligh;
 }
 
 .container {
   padding: 42px 116px 42px;
   max-width: 1400px;
   margin: 0 auto;
+  @media all and (max-width: 1248px) {
+    padding: 20px 70px 30px;
+  }
 }
 
 button {
