@@ -5,6 +5,11 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@font-face {
+    font-family: "Lato SemiBold";
+  src: url(./../../fonts/Lato-SemiBold.ttf.woff);
+}
+
 html {
     line-height: 1.15;
   /* 1 */
@@ -360,9 +365,8 @@ li {
 }
 
 .container {
-    max-width: 1740px;
-    padding: 0 10px;
-    position: relative;
+    padding: 42px 116px 42px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -373,7 +377,7 @@ button {
 }
 
 body {
-    font-family: Muli;
+    font-family: Lato;
 }
 
 a {
@@ -389,4 +393,36 @@ a {
     padding: 0;
     margin: 0;
   /* border: 1px solid red; */
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.nav__link {
+    font-family: Lato SemiBold;
+    font-weight: 500;
+    color: #009fe3;
+    font-size: 20px;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.nav__item {
+    margin-left: 30px;
+}
+
+.nav__list {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.nav__logo {
+    max-width: 270px;
+    width: 100%;
 }
