@@ -2,8 +2,22 @@ function test(a, b) {
     return a + b
 }
 
-console.log(test(5, 2));
-console.log(test(2, 4));
-console.log(test(9, 1));
+//навигация, меню
+const button = document.querySelector(".burger");
+const menu = document.querySelector(".nav");
+
+button.addEventListener("click", function () {
+  menu.classList.toggle("active");
+});
+
+function burgerMenu() {
+  let burgerButton = document.querySelector(".burger");
+  burgerButton.addEventListener("click", function () {
+    burgerButton.classList.toggle("burger_active");
+  });
+}
+burgerMenu();
+
+$(".reviews-slider").slick();
 
 //# sourceMappingURL=script.js.map

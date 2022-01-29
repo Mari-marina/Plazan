@@ -7,7 +7,32 @@
  */
 @font-face {
     font-family: "Lato SemiBold";
-  src: url(./../../fonts/Lato-SemiBold.ttf.woff);
+  src: url(./../fonts/Lato-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Lato Bold";
+  src: url(./../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Lato-Black";
+  src: url(./../fonts/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: "Lato-Ligh";
+  src: url(./../fonts/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: "Lato-Regular";
+  src: url(./../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Lato-Medium";
+  src: url(./../fonts/Lato-Medium.ttf);
 }
 
 html {
@@ -24,6 +49,7 @@ html {
  */
 body {
     margin: 0;
+    color: #111111;
 }
 
 button {
@@ -51,8 +77,10 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
     margin: 0;
+    font-family: Lato-Ligh;
 }
 
 h1 {
@@ -362,12 +390,37 @@ template {
 
 li {
     list-style-type: none;
+    font-family: Lato-Ligh;
 }
 
 .container {
     padding: 42px 116px 42px;
     max-width: 1400px;
     margin: 0 auto;
+}
+
+@media all and (max-width: 1248px) {
+    .container {
+        padding: 20px 70px 30px;
+    }
+}
+
+@media all and (max-width: 994px) {
+    .container {
+        padding: 20px 60px 30px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .container {
+        padding: 20px 30px 30px;
+    }
+}
+
+@media all and (max-width: 380px) {
+    .container {
+        padding: 15px 13px 15px;
+    }
 }
 
 button {
@@ -389,7 +442,6 @@ a {
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
   /* border: 1px solid red; */
@@ -413,8 +465,32 @@ a {
     display: flex;
 }
 
+@media all and (max-width: 1182px) {
+    .nav__link {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width: 1030px) {
+    .nav__link {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 994px) {
+    .nav__link {
+        display: none;
+    }
+}
+
 .nav__item {
     margin-left: 30px;
+}
+
+@media all and (max-width: 1148px) {
+    .nav__item {
+        margin-left: 20px;
+    }
 }
 
 .nav__list {
@@ -425,4 +501,93 @@ a {
 .nav__logo {
     max-width: 270px;
     width: 100%;
+}
+
+.burger {
+    display: none;
+}
+
+@media all and (max-width: 994px) {
+    .burger {
+        display: block;
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        right: 20px;
+        top: 20px;
+        background: url(./../images/burger.svg) no-repeat center;
+    }
+}
+
+.phone {
+    font-size: 40px;
+    font-family: Lato-Black;
+}
+
+@media all and (max-width: 980px) {
+    .phone {
+        font-size: 30px;
+    }
+}
+
+.header__phone {
+    color: #009fe3;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+@media all and (max-width: 994px) {
+    .header__phone {
+        position: relative;
+        top: -76px;
+        right: 34px;
+    }
+}
+
+.header__phone__link {
+    font-size: 24px;
+    border-bottom: solid 1px #009fe3;
+    font-family: Lato-Ligh;
+}
+
+.header__title {
+    font-family: Lato-Regular;
+    font-size: 60px;
+    line-height: 130%;
+}
+
+.header__title--srong {
+    font-size: 72px;
+}
+
+.header__text {
+    font-size: 24px;
+    margin-top: 144px;
+}
+
+.header__wrap {
+    max-width: 622px;
+    width: 100%;
+}
+
+.header__wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding-bottom: 70px;
+}
+
+.header__img {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.container {
+    border-bottom: solid 5px #0494b8;
 }
