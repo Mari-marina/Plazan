@@ -547,6 +547,8 @@ a {
   height: 100%; }
 
 .container {
-  border-bottom: solid 5px #0494b8; }
+  border-bottom: solid 5px #0494b8;
+  background: linear-gradient(#f1fbfe, #f1fbff);
+  background: linear-gradient(to right, #d7f9f6, #f1fbff); }
 
 /*# sourceMappingURL=style.min.css.map */
