@@ -8,6 +8,11 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+@font-face {
+  font-family: "Lato SemiBold";
+  src: url(./../fonts/Lato-SemiBold.ttf);
+}
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -369,9 +374,8 @@ li {
 }
 
 .container {
-  max-width: 1740px;
-  padding: 0 10px;
-  position: relative;
+  padding: 42px 116px 42px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -382,7 +386,7 @@ button {
 }
 
 body {
-  font-family: Muli;
+  font-family: Lato;
 }
 
 a {
