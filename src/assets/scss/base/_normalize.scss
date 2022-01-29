@@ -405,6 +405,15 @@ li {
   @media all and (max-width: 1248px) {
     padding: 20px 70px 30px;
   }
+  @media all and (max-width: 994px) {
+    padding: 20px 60px 30px;
+  }
+  @media all and (max-width: 600px) {
+    padding: 20px 30px 30px;
+  }
+  @media all and (max-width: 380px) {
+    padding: 15px 13px 15px;
+  }
 }
 
 button {
@@ -426,7 +435,7 @@ a {
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+  // box-sizing: border-box;
   padding: 0;
   margin: 0;
   /* border: 1px solid red; */
