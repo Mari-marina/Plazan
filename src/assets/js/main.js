@@ -14,4 +14,4 @@ function burgerMenu() {
 }
 burgerMenu();
 
-$(".reviews-slider").slick();
+// $(".reviews-slider").slick();
