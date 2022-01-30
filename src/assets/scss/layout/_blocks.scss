@@ -4,9 +4,6 @@
   justify-content: center;
 
   @media all and (max-width: 1300px) {
-    margin-top: 210px;
-  }
-  @media all and (max-width: 940px) {
     margin-top: 30px;
   }
 }
@@ -25,6 +22,9 @@
   &:not(:nth-child(6)),
   &:not(:nth-child(9)) {
     margin-right: 30px;
+    @media all and (max-width: 894px) {
+      margin-right: 0;
+    }
   }
 
   &__title {
