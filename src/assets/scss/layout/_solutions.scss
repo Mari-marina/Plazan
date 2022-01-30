@@ -18,6 +18,10 @@
     font-weight: 500;
     margin-left: 70px;
     position: relative;
+    @media all and (max-width: 400px) {
+      font-size: 18px;
+      line-height: 130%;
+    }
   }
   &__item:nth-child(1)::before,
   &__item:nth-child(2)::before,
