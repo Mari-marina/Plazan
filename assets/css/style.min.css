@@ -2907,6 +2907,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         height: 60px; } }
   .questions__textarea {
     height: 208px; }
+    @media all and (max-width: 1172px) {
+      .questions__textarea {
+        height: 160px; } }
   .questions__button {
     width: 238px;
     height: 72px;
@@ -2926,5 +2929,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   .questions__img {
     max-width: 530px;
     width: 100%; }
+
+.go_top {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 20px;
+  bottom: 36px;
+  opacity: 90%; }
 
 /*# sourceMappingURL=style.min.css.map */
