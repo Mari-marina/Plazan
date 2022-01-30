@@ -88,10 +88,11 @@
   &__text {
     font-size: 24px;
     margin-top: 144px;
+    line-height: 140%;
     @media all and (max-width: 1200px) {
       margin-top: 60px;
       margin-bottom: 30px;
-      text-align: justify;
+      // text-align: justify;
     }
     @media all and (max-width: 640px) {
       margin-top: 40px;
