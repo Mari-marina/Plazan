@@ -35,6 +35,11 @@
   src: url(./../fonts/Lato-Medium.ttf);
 }
 
+@font-face {
+    font-family: "Lato-BoldItalic";
+  src: url(./../fonts/Lato-BoldItalic.ttf);
+}
+
 html {
     line-height: 1.15;
   /* 1 */
@@ -3792,11 +3797,161 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     width: 100%;
 }
 
-.arrow_go_top {
+.reviews {
+    margin-top: 100px;
+}
+
+@media all and (max-width: 1216px) {
+    .reviews {
+        margin-top: 70px;
+    }
+}
+
+@media all and (max-width: 692px) {
+    .reviews {
+        margin-top: 40px;
+    }
+}
+
+.reviews__wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 84px;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+@media all and (max-width: 1216px) {
+    .reviews__wrapper {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+}
+
+@media all and (max-width: 692px) {
+    .reviews__wrapper {
+        margin-top: 30px;
+    }
+}
+
+.reviews__wrap--right {
+    margin-top: 20px;
+}
+
+.reviews__wrap--left, .reviews__wrap--right {
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+}
+
+@media all and (max-width: 692px) {
+    .reviews__wrap--left, .reviews__wrap--right {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+
+.reviews__content {
+    max-width: 256px;
+    width: 100%;
+    margin-left: 24px;
+}
+
+@media all and (max-width: 1216px) {
+    .reviews__content {
+        max-width: 456px;
+        margin: 10px 0 10px;
+    }
+}
+
+.reviews__subtitle {
+    font-family: Lato-Black;
+    font-size: 30px;
+    letter-spacing: 0.6rem;
+    text-align: center;
+}
+
+@media all and (max-width: 1216px) {
+    .reviews__subtitle {
+        letter-spacing: 0.4rem;
+    }
+}
+
+@media all and (max-width: 692px) {
+    .reviews__subtitle {
+        letter-spacing: 0.2rem;
+    }
+}
+
+.reviews__title {
+    font-family: Lato Bold;
+    font-size: 72px;
+    color: #009fe3;
+    text-align: center;
+}
+
+@media all and (max-width: 1216px) {
+    .reviews__title {
+        font-size: 40px;
+    }
+}
+
+.reviews__name, .reviews__firm, .reviews__text--top, .reviews__text--bottom {
+    font-family: Lato-BoldItalic;
+}
+
+.reviews__name {
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+@media all and (max-width: 692px) {
+    .reviews__name {
+        margin-top: 12px;
+    }
+}
+
+.reviews__firm {
+    font-size: 18px;
+    color: #009fe3;
+    margin-bottom: 16px;
+}
+
+.reviews__text--top, .reviews__text--bottom {
+    font-size: 16px;
+    color: #adadad;
+}
+
+.reviews__text--top {
+    margin-bottom: 34px;
+}
+
+.reviews__img {
+    max-width: 270px;
+    width: 100%;
+}
+
+.go_top {
     width: 40px;
     height: 40px;
     position: fixed;
     right: 20px;
     bottom: 36px;
     opacity: 90%;
+}
+
+.rates {
+    margin-top: 100px;
+}
+
+.rates__title {
+    font-family: Lato Bold;
+    font-size: 72px;
+    color: #009fe3;
+    text-align: center;
 }

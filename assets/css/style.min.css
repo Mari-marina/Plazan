@@ -33,6 +33,10 @@
   font-family: "Lato-BoldItalic";
   src: url(./../fonts/Lato-BoldItalic.ttf); }
 
+@font-face {
+  font-family: "Lato-Italic";
+  src: url(./../fonts/Lato-Italic.ttf); }
+
 html {
   line-height: 1.15;
   /* 1 */
@@ -2945,7 +2949,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   .reviews__wrapper {
     display: flex;
     margin-top: 84px;
-    justify-content: center; }
+    justify-content: center;
+    position: relative; }
     @media all and (max-width: 1216px) {
       .reviews__wrapper {
         flex-direction: column;
@@ -2954,10 +2959,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     @media all and (max-width: 692px) {
       .reviews__wrapper {
         margin-top: 30px; } }
+    .reviews__wrapper::after {
+      content: "";
+      position: absolute;
+      background: url(./../images/dekor/decor5.png) no-repeat center;
+      width: 50px;
+      height: 40px;
+      top: 134px;
+      left: -30px; }
   .reviews__wrap--right {
     margin-top: 20px; }
   .reviews__wrap--left, .reviews__wrap--right {
-    display: flex; }
+    display: flex;
+    position: relative; }
     @media all and (max-width: 692px) {
       .reviews__wrap--left, .reviews__wrap--right {
         flex-direction: column;
@@ -3017,5 +3031,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   right: 20px;
   bottom: 36px;
   opacity: 90%; }
+
+.rates {
+  margin-top: 100px; }
+  .rates__title {
+    font-family: Lato Bold;
+    font-size: 72px;
+    color: #009fe3;
+    text-align: center; }
+  .rates__subtitle {
+    font-family: Lato-Italic;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.08rem;
+    margin-top: 30px; }
 
 /*# sourceMappingURL=style.min.css.map */
