@@ -1046,3 +1046,13 @@ a {
         width: 250px;
     }
 }
+
+.solutions__wrap::before {
+    content: "";
+    position: absolute;
+    background: url(./../images/dekor/decor3.png) no-repeat center;
+    width: 56px;
+    height: 35px;
+    top: 0px;
+    right: 0;
+}
