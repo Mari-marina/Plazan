@@ -3685,3 +3685,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     -webkit-animation-name: rollOut;
     animation-name: rollOut;
 }
+
+.questions {
+    margin-top: 72px;
+}
+
+.questions__subtitle {
+    font-size: 30px;
+    font-family: Lato-Black;
+    color: #009fe3;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.questions__title {
+    font-size: 72px;
+    font-family: Lato Bold;
+    max-width: 788px;
+    margin: 0 auto;
+    padding-bottom: 72px;
+}
