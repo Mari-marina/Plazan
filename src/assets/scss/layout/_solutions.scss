@@ -33,8 +33,8 @@
   &__item:nth-child(8)::before {
     content: "";
     position: absolute;
-    width: 34px;
-    height: 34px;
+    width: 38px;
+    height: 38px;
   }
   &__item:nth-child(1)::before {
     background: url(./../images/solutions/Vector1.png) no-repeat center;
@@ -101,7 +101,7 @@
   &__wrap::before {
     content: "";
     position: absolute;
-    background: url(./../images/solutions/Vector7.png) no-repeat center;
+    background: url(./../images/solutions/Vector0.png) no-repeat center;
     width: 56px;
     height: 35px;
     top: -77px;
