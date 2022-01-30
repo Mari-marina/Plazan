@@ -892,3 +892,7 @@ a {
 .container {
     border-bottom: solid 5px #0494b8;
 }
+
+.solutions__title {
+    color: #009fe3;
+}
