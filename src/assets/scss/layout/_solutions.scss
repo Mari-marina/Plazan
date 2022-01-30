@@ -10,6 +10,9 @@
       font-size: 46px;
       margin-bottom: 30px;
     }
+    @media all and (max-width: 992px) {
+      font-size: 40px;
+    }
   }
   &__item {
     font-family: Lato-Ligh;
