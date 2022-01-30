@@ -764,30 +764,6 @@ a {
     flex-direction: column;
     align-items: center; } }
 
-.solutions__images--bottom {
-  position: relative;
-  top: -222px;
-  left: 160px; }
-  @media all and (max-width: 1300px) {
-    .solutions__images--bottom {
-      top: 184px;
-      left: -170px; } }
-  @media all and (max-width: 941px) {
-    .solutions__images--bottom {
-      top: 0;
-      left: 0; } }
-
-.solutions__images--top {
-  position: relative;
-  right: 68px; }
-  @media all and (max-width: 1300px) {
-    .solutions__images--top {
-      right: 0; } }
-
-@media all and (max-width: 941px) {
-  .solutions__images--top, .solutions__images--bottom {
-    width: 250px; } }
-
 .solutions__wrapper {
   position: relative; }
 
@@ -807,14 +783,16 @@ a {
       top: -12px;
       left: 230px; } }
 
+@media all and (max-width: 1300px) {
+  .solutions__img {
+    max-width: 640px;
+    width: 100%; } }
+
 .blocks {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
   @media all and (max-width: 1300px) {
-    .blocks {
-      margin-top: 210px; } }
-  @media all and (max-width: 940px) {
     .blocks {
       margin-top: 30px; } }
 
@@ -829,6 +807,9 @@ a {
   margin-top: 20px; }
   .block:not(:nth-child(3)), .block:not(:nth-child(6)), .block:not(:nth-child(9)) {
     margin-right: 30px; }
+    @media all and (max-width: 894px) {
+      .block:not(:nth-child(3)), .block:not(:nth-child(6)), .block:not(:nth-child(9)) {
+        margin-right: 0; } }
   .block__title {
     font-family: Lato-Black;
     font-size: 24px;
@@ -2894,7 +2875,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         margin-left: 50px; } }
     @media all and (max-width: 1172px) {
       .questions__form {
-        margin-top: 20px; } }
+        margin-top: 20px;
+        right: 20px;
+        position: relative; } }
   .questions__input_name, .questions__input_mail, .questions__textarea {
     width: 460px;
     border: none;
@@ -2904,11 +2887,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
     font-size: 24px;
-    font-family: Lato SemiBold; }
+    font-family: Lato SemiBold;
+    text-indent: 10px; }
     @media all and (max-width: 480px) {
       .questions__input_name, .questions__input_mail, .questions__textarea {
         max-width: 460px;
-        width: 100%; } }
+        width: 100%;
+        font-size: 18px; } }
   .questions__input_name, .questions__input_mail {
     height: 72px;
     margin-bottom: 30px; }
