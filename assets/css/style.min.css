@@ -3037,6 +3037,60 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -ms-transition: 0.5s;
   -o-transition: 0.5s; }
 
+.footer {
+  margin-top: 170px; }
+  @media (max-width: 888px) {
+    .footer {
+      margin-top: 100px; } }
+  @media (max-width: 600px) {
+    .footer {
+      margin-top: 50px; } }
+  .footer__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    @media (max-width: 888px) {
+      .footer__nav {
+        flex-wrap: wrap;
+        justify-content: center; } }
+  .footer__nav__list {
+    display: flex; }
+    @media (max-width: 888px) {
+      .footer__nav__list {
+        margin-top: 10px; } }
+    @media (max-width: 552px) {
+      .footer__nav__list {
+        flex-wrap: wrap;
+        justify-content: center; } }
+  .footer__nav__item {
+    margin-left: 30px; }
+    @media all and (max-width: 1160px) {
+      .footer__nav__item {
+        margin-left: 20px; } }
+  .footer__nav__link:hover {
+    color: #009fe3;
+    border-bottom: solid 2px #009fe3; }
+  .footer__phone {
+    color: #009fe3;
+    font-family: Lato-Black;
+    font-size: 24px; }
+  .footer__small {
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #666666; }
+  .footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 80px; }
+    @media (max-width: 900px) {
+      .footer__bottom {
+        margin: 30px 0 50px;
+        flex-direction: column; } }
+    @media (max-width: 888px) {
+      .footer__bottom {
+        margin: 32px 0 30px; } }
+
 .rates {
   margin-top: 100px; }
   .rates__title {
