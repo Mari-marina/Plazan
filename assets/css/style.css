@@ -3881,7 +3881,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @media all and (max-width: 1216px) {
     .reviews__content {
         max-width: 456px;
-        margin: 10px 0 10px;
+        margin: 10px 0 10px 24px;
     }
 }
 
@@ -3995,6 +3995,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     text-align: center;
     letter-spacing: 0.08rem;
     margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+    .rates__subtitle {
+        margin-top: 20px;
+    }
 }
 
 .card {
