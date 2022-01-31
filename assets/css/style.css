@@ -442,7 +442,7 @@ button {
 body {
     font-family: Lato;
     background: linear-gradient(#f1fbfe, #f1fbff);
-    background: linear-gradient(to right, #d7f9f6, #f1fbff);
+    background: linear-gradient(to right, #d7f9f7, #f1fbff);
 }
 
 a {
@@ -3991,7 +3991,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     justify-content: space-between;
 }
 
-@media (max-width: 888px) {
+@media (max-width: 1155px) {
     .footer__nav {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -4027,6 +4027,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @media all and (max-width: 1160px) {
     .footer__nav__item {
         margin-left: 20px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .footer__nav__item {
+        margin-left: -5px;
     }
 }
 
@@ -4284,6 +4290,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     display: flex;
     -ms-flex-pack: center;
     justify-content: center;
+}
+
+details > summary {
+    list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
 }
 
 .aboutUs__title {
