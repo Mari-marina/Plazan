@@ -1,8 +1,13 @@
 //навигация, меню
 const button = document.querySelector(".burger");
-const menu = document.querySelector(".nav");
+let menu = document.querySelector(".nav");
 
 button.addEventListener("click", function () {
+  menu.classList.toggle("active");
+});
+
+const overlay = document.querySelector(".nav__list");
+overlay.addEventListener("click", function () {
   menu.classList.toggle("active");
 });
 
