@@ -441,8 +441,11 @@ button {
 
 body {
     font-family: Lato;
-    background: linear-gradient(#f1fbfe, #f1fbff);
-    background: linear-gradient(to right, #d7f9f7, #f1fbff);
+    background-image: url(../../images/dekor/Layer0.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 a {
@@ -4292,12 +4295,36 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     justify-content: center;
 }
 
+.answers__summary__img {
+    position: relative;
+    top: 20px;
+}
+
 details > summary {
     list-style-type: none;
 }
 
 details > summary::-webkit-details-marker {
     display: none;
+}
+
+summary {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+details[open] img {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
 }
 
 .aboutUs__title {

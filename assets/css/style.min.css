@@ -380,8 +380,9 @@ button {
 
 body {
   font-family: Lato;
-  background: linear-gradient(#f1fbfe, #f1fbff);
-  background: linear-gradient(to right, #d7f9f7, #f1fbff); }
+  background: -webkit-linear-gradient(135deg, #f1f9fb, #d7f9f7, #fef2f5);
+  background: -moz-linear-gradient(135deg, #f1f9fb, #d7f9f7, #fef2f5);
+  background: linear-gradient(135deg, #f1f9fb, #d7f9f7, #fef2f5); }
 
 a {
   color: inherit;
@@ -3244,7 +3245,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .answers__summary__img {
   position: relative;
-  top: 20px; }
+  top: 20px;
+  width: 20px;
+  height: 20px; }
 
 details > summary {
   list-style-type: none; }
