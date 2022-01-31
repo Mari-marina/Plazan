@@ -3977,10 +3977,126 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     text-align: center;
 }
 
+@media (max-width: 1300px) {
+    .rates__title {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 992px) {
+    .rates__title {
+        font-size: 40px;
+    }
+}
+
 .rates__subtitle {
     font-family: Lato-Italic;
     font-size: 20px;
     text-align: center;
     letter-spacing: 0.08rem;
     margin-top: 30px;
+}
+
+.card {
+    width: 374px;
+    height: 514px;
+    background-image: url(../images/bg.png);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+@media all and (max-width: 1360px) {
+    .card {
+        max-width: 374px;
+        min-width: 272px;
+        width: 100%;
+        margin: 0 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.card__subtitle {
+    color: #009fe3;
+    font-family: Lato-Black;
+    font-size: 24px;
+    margin-top: 12px;
+}
+
+.card__title {
+    font-family: Lato-Black;
+    font-size: 60px;
+    margin: 22px 0 42px;
+}
+
+.card__text--left-blue, .card__text--right-blue {
+    color: #009fe3;
+    font-family: Lato-Black;
+    font-size: 20px;
+}
+
+.card__text--top, .card__text--average, .card__text--bottom {
+    font-size: Lato Bold;
+    font-size: 20px;
+    margin-bottom: 24px;
+    border-bottom: solid 2px #020202;
+}
+
+.card__text {
+    font-family: Lato-Black;
+    font-size: 30px;
+    max-width: 222px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.card__btn {
+    width: 238px;
+    height: 72px;
+    background-color: #02a0e3;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: Lato-Medium;
+    font-size: 24px;
+    box-shadow: 0px 4px 18px rgba(52, 119, 196, 0.35), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+    margin-top: 9px;
+}
+
+.card__btn:hover {
+    background-color: #5eb0f3;
+}
+
+.card__wrap {
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.card__text--left-blue {
+    margin-right: 28px;
+}
+
+.card__wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+@media all and (max-width: 960px) {
+    .card__wrapper {
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
 }
