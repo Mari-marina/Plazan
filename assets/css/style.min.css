@@ -3049,11 +3049,21 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   .footer__nav {
     display: flex;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: space-between;
+    position: relative; }
     @media (max-width: 1155px) {
       .footer__nav {
         flex-wrap: wrap;
         justify-content: center; } }
+  .footer__nav::after {
+    content: "";
+    position: absolute;
+    background: url(./../images/dekor/decor8.png) no-repeat center;
+    width: 151px;
+    height: 168px;
+    bottom: 95px;
+    right: 4px;
+    z-index: -1; }
   .footer__nav__list {
     display: flex; }
     @media (max-width: 888px) {
