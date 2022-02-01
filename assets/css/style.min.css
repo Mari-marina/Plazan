@@ -77,7 +77,7 @@ h5,
 h6,
 p {
   margin: 0;
-  font-family: Lato-Ligh; }
+  font-family: Lato-Medium; }
 
 h1 {
   font-size: 2em; }
@@ -379,7 +379,6 @@ button {
   cursor: pointer; }
 
 body {
-  font-family: Lato;
   background: -webkit-linear-gradient(135deg, #f1f9fb, #d7f9f7, #fef2f5);
   background: -moz-linear-gradient(135deg, #f1f9fb, #d7f9f7, #fef2f5);
   background: linear-gradient(135deg, #f1f9fb, #d7f9f7, #fef2f5); }
@@ -473,7 +472,7 @@ a {
         border-bottom: none; } }
   .nav__item {
     margin-left: 30px; }
-    @media all and (max-width: 1160px) {
+    @media all and (max-width: 1188px) {
       .nav__item {
         margin-left: 20px; } }
   .nav__list {
@@ -820,10 +819,10 @@ a {
   align-items: center;
   margin-top: 20px;
   box-shadow: 0px 4px 18px rgba(104, 104, 105, 0.35), inset 0px 1px 0px rgba(255, 255, 255, 0.3); }
-  .block:not(:nth-child(3)), .block:not(:nth-child(6)), .block:not(:nth-child(9)) {
+  .block:not(:nth-child(3n)) {
     margin-right: 30px; }
     @media all and (max-width: 894px) {
-      .block:not(:nth-child(3)), .block:not(:nth-child(6)), .block:not(:nth-child(9)) {
+      .block:not(:nth-child(3n)) {
         margin-right: 0; } }
   .block__title {
     font-family: Lato-Black;
@@ -3285,7 +3284,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   height: 15px; }
 
 details > summary {
-  list-style-type: none; }
+  list-style-type: none;
+  background-color: #f6f7fb; }
 
 details > summary::-webkit-details-marker {
   display: none; }
@@ -3296,12 +3296,14 @@ summary {
   justify-content: space-between;
   align-items: center; }
 
-details[open] img {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg); }
+details[open] {
+  background-color: #f6f7fb; }
+  details[open] img {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg); }
 
 .aboutUs__title {
   font-family: Lato Bold;
