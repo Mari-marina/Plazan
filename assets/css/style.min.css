@@ -462,7 +462,8 @@ a {
         margin-left: 24px; } }
     @media all and (max-width: 994px) {
       .nav__link {
-        font-family: Lato-Black; } }
+        font-family: Lato-Black;
+        font-size: 20px; } }
   .nav__link:hover {
     color: #009fe3;
     border-bottom: solid 2px #009fe3; }
@@ -2876,14 +2877,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         text-align: center; } }
   .questions__wrapper, .questions__wrap, .questions__form {
     display: flex; }
-    @media all and (max-width: 1172px) {
+    @media all and (max-width: 1200px) {
       .questions__wrapper, .questions__wrap, .questions__form {
         flex-direction: column;
         align-items: center; } }
   .questions__form {
     flex-direction: column;
     margin-left: 140px; }
-    @media all and (max-width: 1312px) {
+    @media all and (max-width: 1392px) {
       .questions__form {
         margin-left: 50px; } }
     @media all and (max-width: 1172px) {

@@ -3757,7 +3757,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .questions__input_name, .questions__input_mail {
     height: 72px;
-    margin-bottom: 30px;
+    margin-bottom: 26px;
 }
 
 @media all and (max-width: 1172px) {
@@ -4306,8 +4306,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .answers__summary__img {
     position: relative;
     top: 20px;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 
 details > summary {
