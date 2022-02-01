@@ -20,9 +20,7 @@
   box-shadow: 0px 4px 18px rgba(104, 104, 105, 0.35),
     inset 0px 1px 0px rgba(255, 255, 255, 0.3);
 
-  &:not(:nth-child(3)),
-  &:not(:nth-child(6)),
-  &:not(:nth-child(9)) {
+  &:not(:nth-child(3n)) {
     margin-right: 30px;
     @media all and (max-width: 894px) {
       margin-right: 0;
