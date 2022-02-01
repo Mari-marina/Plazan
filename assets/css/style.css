@@ -4003,11 +4003,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .footer__nav::after {
     content: "";
     position: absolute;
-    background: url(./../images/dekor/decor8.svg) no-repeat center;
-    width: 268px;
-    height: 268px;
-    bottom: 0px;
-    right: 0px;
+    background: url(./../images/dekor/decor8.png) no-repeat center;
+    width: 151px;
+    height: 168px;
+    bottom: 95px;
+    right: 4px;
     z-index: -1;
 }
 
