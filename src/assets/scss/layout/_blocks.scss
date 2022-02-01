@@ -48,3 +48,23 @@
     margin-bottom: 24px;
   }
 }
+
+.block--second,
+.block--fifth,
+.block--eighth {
+  position: relative;
+  top: 20px;
+  @media all and (max-width: 1382px) {
+    top: 0px;
+  }
+}
+
+.block--third,
+.block--sixth,
+.block--ninth {
+  position: relative;
+  top: 40px;
+  @media all and (max-width: 1382px) {
+    top: 0px;
+  }
+}
