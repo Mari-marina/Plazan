@@ -399,7 +399,8 @@ a {
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  z-index: 10; }
   @media all and (max-width: 994px) {
     .nav {
       padding-top: 40px;
