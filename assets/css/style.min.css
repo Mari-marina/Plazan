@@ -839,6 +839,28 @@ a {
   .block__text {
     margin-bottom: 24px; }
 
+.block--second,
+.block--fifth,
+.block--eighth {
+  position: relative;
+  top: 20px; }
+  @media all and (max-width: 1382px) {
+    .block--second,
+    .block--fifth,
+    .block--eighth {
+      top: 0px; } }
+
+.block--third,
+.block--sixth,
+.block--ninth {
+  position: relative;
+  top: 40px; }
+  @media all and (max-width: 1382px) {
+    .block--third,
+    .block--sixth,
+    .block--ninth {
+      top: 0px; } }
+
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license
@@ -2870,7 +2892,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     font-family: Lato Bold;
     max-width: 788px;
     margin: 0 auto;
-    padding-bottom: 72px; }
+    padding-bottom: 72px;
+    text-align: center; }
     @media all and (max-width: 992px) {
       .questions__title {
         font-size: 40px;

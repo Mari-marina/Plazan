@@ -556,6 +556,7 @@ a {
 @media all and (max-width: 994px) {
     .nav__link {
         font-family: Lato-Black;
+        font-size: 20px;
     }
 }
 
@@ -1121,6 +1122,36 @@ a {
 
 .block__text {
     margin-bottom: 24px;
+}
+
+.block--second,
+.block--fifth,
+.block--eighth {
+    position: relative;
+    top: 20px;
+}
+
+@media all and (max-width: 1382px) {
+    .block--second,
+    .block--fifth,
+    .block--eighth {
+        top: 0px;
+    }
+}
+
+.block--third,
+.block--sixth,
+.block--ninth {
+    position: relative;
+    top: 40px;
+}
+
+@media all and (max-width: 1382px) {
+    .block--third,
+    .block--sixth,
+    .block--ninth {
+        top: 0px;
+    }
 }
 
 /*!
@@ -3690,6 +3721,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     max-width: 788px;
     margin: 0 auto;
     padding-bottom: 72px;
+    text-align: center;
 }
 
 @media all and (max-width: 992px) {
@@ -3704,7 +3736,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     display: flex;
 }
 
-@media all and (max-width: 1172px) {
+@media all and (max-width: 1200px) {
     .questions__wrapper, .questions__wrap, .questions__form {
         -ms-flex-direction: column;
         flex-direction: column;
@@ -3719,7 +3751,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     margin-left: 140px;
 }
 
-@media all and (max-width: 1312px) {
+@media all and (max-width: 1392px) {
     .questions__form {
         margin-left: 50px;
     }
