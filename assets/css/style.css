@@ -4587,7 +4587,7 @@ details[open] img {
 }
 
 @media all and (max-width: 994px) {
-    .sticky {
+    .sticky__none {
         display: none;
     }
 }
