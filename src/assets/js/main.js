@@ -43,9 +43,9 @@ window.addEventListener("scroll", function () {
 
 const sticky = document.querySelector(".sticky");
 window.addEventListener("scroll", function () {
-  if (window.scrollY < 70) {
-    sticky.style.opacity = 0;
+  if (window.scrollY > 100) {
+    sticky.style.display = "block";
   } else {
-    sticky.style.opacity = 1;
+    sticky.style.display = "none";
   }
 });
