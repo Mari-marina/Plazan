@@ -901,6 +901,7 @@ a {
 
 .container {
     border-bottom: solid 5px #0494b8;
+    width: 100%;
 }
 
 .solutions__title {
@@ -1061,7 +1062,7 @@ a {
 }
 
 .bg {
-    background: linear-gradient(270deg, #f9fdfc, #fef1f4 49%, #eefaf7);
+    background: linear-gradient(270deg, #f9fdfc, #fcf0f3 49%, #eefaf7);
 }
 
 .blocks {
