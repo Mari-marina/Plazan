@@ -4583,10 +4583,16 @@ details[open] img {
 }
 
 .sticky {
-    position: sticky;
+    position: fixed;
     top: 20px;
     background-color: #0191b6;
     z-index: 100;
+}
+
+@media all and (max-width: 994px) {
+    .sticky {
+        display: none;
+    }
 }
 
 .sticky__nav {
