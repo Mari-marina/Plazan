@@ -4577,17 +4577,13 @@ details[open] img {
     }
 }
 
-.sticky_active {
-    position: sticky;
-    top: 20px;
-}
-
 .sticky {
     width: 100%;
     position: fixed;
     top: 20px;
     background-color: #0191b6;
     z-index: 100;
+    display: none;
 }
 
 @media all and (max-width: 994px) {
@@ -4649,4 +4645,10 @@ details[open] img {
     flex-direction: column;
     -ms-flex-align: end;
     align-items: flex-end;
+}
+
+.sticky__container {
+    padding: 0 100px 0;
+    max-width: 1400px;
+    margin: 0 auto;
 }
