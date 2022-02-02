@@ -90,7 +90,7 @@ h5,
 h6,
 p {
     margin: 0;
-    font-family: Lato-Ligh;
+    font-family: Lato-Medium;
 }
 
 h1 {
@@ -440,7 +440,6 @@ button {
 }
 
 body {
-    font-family: Lato;
     background: linear-gradient(135deg, #f1f9fb, #d7f9f7, #fef2f5);
 }
 
@@ -576,7 +575,7 @@ a {
     margin-left: 30px;
 }
 
-@media all and (max-width: 1160px) {
+@media all and (max-width: 1188px) {
     .nav__item {
         margin-left: 20px;
     }
@@ -1091,12 +1090,12 @@ a {
     box-shadow: 0px 4px 18px rgba(104, 104, 105, 0.35), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
 }
 
-.block:not(:nth-child(3)), .block:not(:nth-child(6)), .block:not(:nth-child(9)) {
+.block:not(:nth-child(3n)) {
     margin-right: 30px;
 }
 
 @media all and (max-width: 894px) {
-    .block:not(:nth-child(3)), .block:not(:nth-child(6)), .block:not(:nth-child(9)) {
+    .block:not(:nth-child(3n)) {
         margin-right: 0;
     }
 }
@@ -4345,6 +4344,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 details > summary {
     list-style-type: none;
+    background-color: #f6f7fb;
 }
 
 details > summary::-webkit-details-marker {
@@ -4360,6 +4360,10 @@ summary {
     justify-content: space-between;
     -ms-flex-align: center;
     align-items: center;
+}
+
+details[open] {
+    background-color: #f6f7fb;
 }
 
 details[open] img {

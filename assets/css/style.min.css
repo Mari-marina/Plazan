@@ -801,6 +801,11 @@ a {
     max-width: 640px;
     width: 100%; } }
 
+.bg {
+  background: -webkit-linear-gradient(270deg, #f9fdfc, #fef1f4 49%, #eefaf7);
+  background: -moz-linear-gradient(270deg, #f9fdfc, #fef1f4 49%, #eefaf7);
+  background: linear-gradient(270deg, #f9fdfc, #fef1f4 49%, #eefaf7); }
+
 .blocks {
   display: flex;
   flex-wrap: wrap;
