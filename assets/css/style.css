@@ -440,7 +440,7 @@ button {
 }
 
 body {
-    background: linear-gradient(135deg, #f1f9fb, #d7f9f7, #fef2f5);
+    background: linear-gradient(135deg, #f1f9fb, #d9f8f6, #fef2f5);
 }
 
 a {
@@ -1058,6 +1058,10 @@ a {
         max-width: 640px;
         width: 100%;
     }
+}
+
+.bg {
+    background: linear-gradient(270deg, #f9fdfc, #fef1f4 49%, #eefaf7);
 }
 
 .blocks {

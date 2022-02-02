@@ -379,9 +379,9 @@ button {
   cursor: pointer; }
 
 body {
-  background: -webkit-linear-gradient(135deg, #f1f9fb, #d7f9f7, #fef2f5);
+  background: -webkit-linear-gradient(135deg, #f1f9fb, #d6f7f4, #fef2f5);
   background: -moz-linear-gradient(135deg, #f1f9fb, #d7f9f7, #fef2f5);
-  background: linear-gradient(135deg, #f1f9fb, #d7f9f7, #fef2f5); }
+  background: linear-gradient(135deg, #f1f9fb, #d9f8f6, #fef2f5); }
 
 a {
   color: inherit;
@@ -803,8 +803,8 @@ a {
 
 .bg {
   background: -webkit-linear-gradient(270deg, #f9fdfc, #fef1f4 49%, #eefaf7);
-  background: -moz-linear-gradient(270deg, #f9fdfc, #fef1f4 49%, #eefaf7);
-  background: linear-gradient(270deg, #f9fdfc, #fef1f4 49%, #eefaf7); }
+  background: -moz-linear-gradient(270deg, #f9fdfc, #fcf1f4 49%, #eefaf7);
+  background: linear-gradient(270deg, #f9fdfc, #fcf0f3 49%, #eefaf7); }
 
 .blocks {
   display: flex;
