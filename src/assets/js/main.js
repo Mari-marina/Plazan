@@ -40,3 +40,12 @@ window.addEventListener("scroll", function () {
     goTop.style.opacity = 0;
   }
 });
+
+const sticky = document.querySelector(".sticky");
+window.addEventListener("scroll", function () {
+  if (window.scrollY < 50) {
+    sticky.style.opacity = 0;
+  } else {
+    sticky.style.opacity = 1;
+  }
+});
