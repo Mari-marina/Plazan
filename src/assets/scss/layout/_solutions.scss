@@ -124,3 +124,23 @@
     }
   }
 }
+.bg {
+  background: -webkit-linear-gradient(
+    270deg,
+    rgb(249, 253, 252),
+    rgb(254, 241, 244) 49%,
+    rgb(238, 250, 247)
+  );
+  background: -moz-linear-gradient(
+    270deg,
+    rgb(249, 253, 252),
+    rgb(254, 241, 244) 49%,
+    rgb(238, 250, 247)
+  );
+  background: linear-gradient(
+    270deg,
+    rgb(249, 253, 252),
+    rgb(254, 241, 244) 49%,
+    rgb(238, 250, 247)
+  );
+}
