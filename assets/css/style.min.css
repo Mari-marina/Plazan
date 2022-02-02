@@ -378,7 +378,19 @@ button {
   background-color: transparent;
   cursor: pointer; }
 
+.container {
+  max-width: 100% !important;
+  overflow-x: hidden !important; }
+
+@media screen and (max-width: 667px) {
+  body {
+    overflow-x: hidden !important; }
+  .container {
+    max-width: 100% !important;
+    overflow-x: hidden !important; } }
+
 body {
+  overflow-x: hidden !important;
   background: -webkit-linear-gradient(135deg, #f1f9fb, #d6f7f4, #fef2f5);
   background: -moz-linear-gradient(135deg, #f1f9fb, #d7f9f7, #fef2f5);
   background: linear-gradient(135deg, #f1f9fb, #d9f8f6, #fef2f5); }

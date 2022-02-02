@@ -440,6 +440,7 @@ button {
 }
 
 body {
+    overflow-x: hidden !important;
     background: linear-gradient(135deg, #f1f9fb, #d9f8f6, #fef2f5);
 }
 
@@ -901,7 +902,6 @@ a {
 
 .container {
     border-bottom: solid 5px #0494b8;
-    width: 100%;
 }
 
 .solutions__title {
