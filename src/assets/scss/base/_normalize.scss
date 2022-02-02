@@ -429,8 +429,22 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
+.container {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+@media screen and (max-width: 667px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+}
 
 body {
+  overflow-x: hidden !important;
   // font-family: Lato;
   // background-image: url(../../images/dekor/Layer0.png);
   // background-position: center;
