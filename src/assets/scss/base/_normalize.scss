@@ -44,7 +44,8 @@
 
 html {
   line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /*
+   2 */
 }
 
 /* Sections
@@ -413,11 +414,14 @@ li {
   @media all and (max-width: 1248px) {
     padding: 20px 70px 30px;
   }
-  @media all and (max-width: 994px) {
+  @media all and (max-width: 1180px) {
     padding: 20px 60px 30px;
   }
-  @media all and (max-width: 600px) {
+  @media all and (max-width: 994px) {
     padding: 20px 30px 30px;
+  }
+  @media all and (max-width: 600px) {
+    padding: 20px 20px 30px;
   }
   @media all and (max-width: 380px) {
     padding: 15px 13px 15px;
