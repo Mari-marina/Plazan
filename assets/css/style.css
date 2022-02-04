@@ -585,8 +585,8 @@ a {
 }
 
 .nav__link:hover {
-    color: #009fe3;
-    border-bottom: solid 2px #009fe3;
+    color: #0091b5;
+    border-bottom: solid 2px #0091b5;
 }
 
 @media all and (max-width: 994px) {
@@ -708,7 +708,7 @@ a {
 }
 
 .header__phone {
-    color: #009fe3;
+    color: #0091b5;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: end;
@@ -771,7 +771,7 @@ a {
 
 .header__phone__link {
     font-size: 24px;
-    border-bottom: solid 1px #009fe3;
+    border-bottom: solid 1px #0091b5;
     font-family: Lato-Ligh;
 }
 
@@ -1005,7 +1005,7 @@ a {
 }
 
 .solutions__title {
-    color: #009fe3;
+    color: #0091b5;
     font-family: Lato-Black;
     font-size: 60px;
     margin-bottom: 70px;
@@ -1279,6 +1279,12 @@ a {
 
 .block__img {
     margin-top: 20px;
+}
+
+@media all and (max-width: 450px) {
+    .block__img {
+        width: 64px;
+    }
 }
 
 .block__content {
@@ -3887,7 +3893,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .questions__subtitle {
     font-size: 30px;
     font-family: Lato-Black;
-    color: #009fe3;
+    color: #0091b5;
     text-align: center;
     margin-bottom: 24px;
 }
@@ -3952,7 +3958,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .questions__input_name, .questions__input_mail, .questions__textarea {
-    width: 460px;
+    width: 440px;
     border: none;
     border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -3961,7 +3967,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     -o-border-radius: 4px;
     font-size: 24px;
     font-family: Lato SemiBold;
-    text-indent: 10px;
+    padding: 0 10px;
     box-shadow: 0px 4px 18px rgba(104, 104, 105, 0.35), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
 }
 
@@ -3992,7 +3998,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .questions__textarea {
     height: 208px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 @media all and (max-width: 1172px) {
@@ -4169,7 +4175,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .reviews__title {
     font-family: Lato Bold;
     font-size: 72px;
-    color: #009fe3;
+    color: #0091b5;
     text-align: center;
 }
 
@@ -4190,13 +4196,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .reviews__firm {
     font-size: 18px;
-    color: #009fe3;
+    color: #0091b5;
     margin-bottom: 16px;
 }
 
 .reviews__text--top, .reviews__text--bottom {
     font-size: 16px;
-    color: #adadad;
+    color: #777;
 }
 
 .reviews__text--top {
@@ -4340,12 +4346,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .footer__nav__link:hover {
-    color: #009fe3;
-    border-bottom: solid 2px #009fe3;
+    color: #0091b5;
+    border-bottom: solid 2px #0091b5;
 }
 
 .footer__phone {
-    color: #009fe3;
+    color: #0091b5;
     font-family: Lato-Black;
     font-size: 24px;
 }
@@ -4415,7 +4421,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .rates__title {
     font-family: Lato Bold;
     font-size: 72px;
-    color: #009fe3;
+    color: #0091b5;
     text-align: center;
 }
 
@@ -4486,10 +4492,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .card__subtitle {
-    color: #009fe3;
+    color: #0091b5;
     font-family: Lato-Black;
     font-size: 24px;
     margin-top: 12px;
+}
+
+.card__text--grey {
+    color: #777;
+    font-size: 30px;
 }
 
 .card__title {
@@ -4505,9 +4516,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .card__text--left-blue, .card__text--right-blue {
-    color: #009fe3;
+    color: #0091b5;
     font-family: Lato-Black;
     font-size: 20px;
+}
+
+.card__text--left-blue {
+    margin-right: 4px;
+}
+
+.card__text--right-blue {
+    margin-left: 4px;
 }
 
 .card__text--top, .card__text--average, .card__text--bottom {
@@ -4556,10 +4575,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 24px;
-}
-
-.card__text--left-blue {
-    margin-right: 28px;
+    width: 140px;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .card__wrapper {
@@ -4583,7 +4601,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     margin-top: 70px;
     font-family: Lato Bold;
     font-size: 72px;
-    color: #009fe3;
+    color: #0091b5;
     text-align: center;
 }
 
@@ -4597,7 +4615,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     font-family: Lato-Italic;
     font-size: 20px;
     text-align: center;
-    margin: 20px 0 60px;
+    margin: 20px 0 50px;
 }
 
 @media (max-width: 900px) {
@@ -4610,6 +4628,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     font-family: Lato Bold;
     font-size: 23px;
     margin-top: 36px;
+    position: relative;
+    bottom: 12px;
 }
 
 .answers__text {
@@ -4617,6 +4637,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     font-size: 16px;
     color: #8d8f94;
     margin-top: 36px;
+    line-height: 160%;
 }
 
 .answers__btn {
@@ -4646,16 +4667,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     justify-content: center;
 }
 
-.answers__summary__img {
-    position: relative;
-    top: 20px;
-    width: 15px;
-    height: 15px;
-}
-
 details > summary {
     list-style-type: none;
     background-color: #f6f7fb;
+    margin-top: 10px;
 }
 
 details > summary::-webkit-details-marker {
@@ -4671,6 +4686,7 @@ summary {
     justify-content: space-between;
     -ms-flex-align: center;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 details[open] {
@@ -4707,6 +4723,51 @@ details[open] img {
     .title {
         font-size: 2rem;
     }
+}
+
+.plus-minus,
+.plus-minus2,
+.plus-minus3,
+.plus-minus_new {
+    width: 15px;
+    height: 15px;
+    right: 0px;
+    top: 0px;
+    background: url(./../images/dekor/Plus.png) no-repeat center;
+    transition: 0.2s;
+    position: relative;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+}
+
+.plus-minus_active,
+.plus-minus3_active,
+.plus-minus2_active {
+    background: url(./../images/dekor/minus.png) no-repeat center;
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    position: relative;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+}
+
+.plus-minus_new {
+    width: 15px;
+    height: 15px;
+    right: 0px;
+    top: 0px;
+    background: url(./../images/dekor/Plus.png) no-repeat center;
+    transition: 0.2s;
+    position: relative;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    background-size: contain;
 }
 
 .aboutUs__title {
