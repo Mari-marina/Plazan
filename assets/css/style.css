@@ -49,7 +49,8 @@ html {
     line-height: 1.15;
   /* 1 */
     -webkit-text-size-adjust: 100%;
-  /* 2 */
+  /*
+   2 */
 }
 
 /* Sections
@@ -415,15 +416,21 @@ li {
     }
 }
 
-@media all and (max-width: 994px) {
+@media all and (max-width: 1180px) {
     .container {
         padding: 20px 60px 30px;
     }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 994px) {
     .container {
         padding: 20px 30px 30px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .container {
+        padding: 20px 20px 30px;
     }
 }
 
@@ -499,7 +506,7 @@ a {
         justify-content: flex-start;
         -ms-flex-align: center;
         align-items: center;
-        background: #e0f6fc;
+        background: #f0fcfd;
         transform: translateX(-100%);
         transition: -webkit-transform 0.5s ease;
         transition: transform 0.5s ease;
@@ -813,6 +820,7 @@ a {
 }
 
 .header__text {
+    font-family: Lato-Ligh;
     font-size: 24px;
     margin-top: 144px;
     line-height: 140%;
@@ -824,7 +832,7 @@ a {
     }
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1100px) {
     .header__text {
         margin-top: 40px;
         margin-bottom: 30px;
@@ -840,7 +848,6 @@ a {
 @media all and (max-width: 400px) {
     .header__text {
         margin-top: 24px;
-        font-size: 18px;
     }
 }
 
@@ -888,12 +895,13 @@ a {
     position: relative;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 768px) {
     .header__wrapper {
         -ms-flex-align: center;
         align-items: center;
         -ms-flex-direction: column;
         flex-direction: column;
+        padding-bottom: 30px;
     }
 }
 
@@ -930,25 +938,70 @@ a {
 
 @media all and (max-width: 1180px) {
     .header__img {
-        position: relative;
-        right: 20px;
-    }
-}
-
-@media all and (max-width: 1160px) {
-    .header__img {
-        right: 50px;
+        max-width: 500px;
     }
 }
 
 @media all and (max-width: 1000px) {
     .header__img {
-        right: 0px;
+        max-width: 400px;
     }
 }
 
 .container {
     border-bottom: solid 5px #0494b8;
+}
+
+@media all and (max-width: 1300px) {
+    .text {
+        font-size: 1.4rem;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .text {
+        font-size: 1.3rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .text {
+        font-size: 1.2rem;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .text {
+        font-size: 1.1rem;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .title {
+        font-size: 3.4rem;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .title {
+        font-size: 3.2rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .title {
+        font-size: 2.5rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .title {
+        font-size: 2rem;
+    }
+}
+
+.solutions {
+    margin: 0 auto;
 }
 
 .solutions__title {
@@ -961,14 +1014,7 @@ a {
 
 @media all and (max-width: 1300px) {
     .solutions__title {
-        font-size: 46px;
         margin-bottom: 30px;
-    }
-}
-
-@media all and (max-width: 992px) {
-    .solutions__title {
-        font-size: 40px;
     }
 }
 
@@ -981,9 +1027,27 @@ a {
     position: relative;
 }
 
+@media all and (max-width: 1300px) {
+    .solutions__item {
+        font-size: 1.4rem;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .solutions__item {
+        font-size: 1.3rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .solutions__item {
+        font-size: 1.2rem;
+    }
+}
+
 @media all and (max-width: 400px) {
     .solutions__item {
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 130%;
     }
 }
@@ -1047,9 +1111,11 @@ a {
     margin-top: 70px;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1000px) {
     .solutions__wrapper {
         -ms-flex-direction: column;
         flex-direction: column;
@@ -1112,6 +1178,30 @@ a {
     background: linear-gradient(270deg, #f9fdfc, #fcf0f3 49%, #eefaf7);
 }
 
+@media all and (max-width: 1300px) {
+    .title {
+        font-size: 3.4rem;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .title {
+        font-size: 3.2rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .title {
+        font-size: 2.5rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .title {
+        font-size: 2rem;
+    }
+}
+
 .blocks {
     display: -ms-flexbox;
     display: flex;
@@ -1119,6 +1209,8 @@ a {
     flex-wrap: wrap;
     -ms-flex-pack: center;
     justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 @media all and (max-width: 1300px) {
@@ -1140,6 +1232,12 @@ a {
     align-items: center;
     margin-top: 20px;
     box-shadow: 0px 4px 18px rgba(104, 104, 105, 0.35), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+}
+
+@media all and (max-width: 824px) {
+    .block {
+        width: 340px;
+    }
 }
 
 .block:not(:nth-child(3n)) {
@@ -3779,6 +3877,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     margin-top: 72px;
 }
 
+@media all and (max-width: 1000px) {
+    .questions {
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+}
+
 .questions__subtitle {
     font-size: 30px;
     font-family: Lato-Black;
@@ -3787,29 +3892,38 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     margin-bottom: 24px;
 }
 
+@media all and (max-width: 900px) {
+    .questions__subtitle {
+        font-size: 24px;
+    }
+}
+
 .questions__title {
     font-size: 72px;
     font-family: Lato Bold;
     max-width: 788px;
-    margin: 0 auto;
     padding-bottom: 72px;
     text-align: center;
 }
 
 @media all and (max-width: 992px) {
     .questions__title {
-        font-size: 40px;
         text-align: center;
     }
 }
 
-.questions__wrapper, .questions__wrap, .questions__form {
+.questions__wrapper {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.questions__wrapper, .questions__form {
     display: -ms-flexbox;
     display: flex;
 }
 
-@media all and (max-width: 1200px) {
-    .questions__wrapper, .questions__wrap, .questions__form {
+@media all and (max-width: 1000px) {
+    .questions__wrapper, .questions__form {
         -ms-flex-direction: column;
         flex-direction: column;
         -ms-flex-align: center;
@@ -3851,6 +3965,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     box-shadow: 0px 4px 18px rgba(104, 104, 105, 0.35), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
 }
 
+@media all and (max-width: 1200px) {
+    .questions__input_name, .questions__input_mail, .questions__textarea {
+        width: 400px;
+    }
+}
+
 @media all and (max-width: 480px) {
     .questions__input_name, .questions__input_mail, .questions__textarea {
         max-width: 460px;
@@ -3872,6 +3992,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .questions__textarea {
     height: 208px;
+    padding-top: 20px;
 }
 
 @media all and (max-width: 1172px) {
@@ -3903,6 +4024,44 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .questions__img {
     max-width: 530px;
     width: 100%;
+}
+
+@media all and (max-width: 1000px) {
+    .questions__img {
+        max-width: 400px;
+        height: 100%;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .questions__img {
+        max-width: 350px;
+        height: 100%;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .title {
+        font-size: 3.4rem;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .title {
+        font-size: 3.2rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .title {
+        font-size: 2.5rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .title {
+        font-size: 2rem;
+    }
 }
 
 .reviews {
@@ -4014,12 +4173,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     text-align: center;
 }
 
-@media all and (max-width: 1216px) {
-    .reviews__title {
-        font-size: 40px;
-    }
-}
-
 .reviews__name, .reviews__firm, .reviews__text--top, .reviews__text--bottom {
     font-family: Lato-BoldItalic;
 }
@@ -4053,6 +4206,30 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .reviews__img {
     max-width: 270px;
     width: 100%;
+}
+
+@media all and (max-width: 1300px) {
+    .title {
+        font-size: 3.4rem;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .title {
+        font-size: 3.2rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .title {
+        font-size: 2.5rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .title {
+        font-size: 2rem;
+    }
 }
 
 .go_top {
@@ -4097,10 +4274,21 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @media (max-width: 1155px) {
     .footer__nav {
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
         -ms-flex-pack: center;
         justify-content: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer__nav {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1100px) {
+    .footer__logo {
+        width: 200px;
     }
 }
 
@@ -4126,7 +4314,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 }
 
-@media (max-width: 552px) {
+@media (max-width: 780px) {
     .footer__nav__list {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -4145,9 +4333,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1100px) {
     .footer__nav__item {
-        margin-left: -5px;
+        margin-left: 15px;
     }
 }
 
@@ -4192,14 +4380,36 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 }
 
+@media all and (max-width: 840px) {
+    .footer__logo {
+        max-width: 160px;
+    }
+}
+
 @media all and (max-width: 640px) {
     .footer__logo {
         max-width: 150px;
     }
 }
 
+.footer__nav__link {
+    font-family: Lato SemiBold;
+}
+
 .rates {
     margin-top: 100px;
+}
+
+@media all and (max-width: 900px) {
+    .rates {
+        margin-top: 80px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .rates {
+        margin-top: 60px;
+    }
 }
 
 .rates__title {
@@ -4207,18 +4417,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     font-size: 72px;
     color: #009fe3;
     text-align: center;
-}
-
-@media (max-width: 1300px) {
-    .rates__title {
-        font-size: 46px;
-    }
-}
-
-@media (max-width: 992px) {
-    .rates__title {
-        font-size: 40px;
-    }
 }
 
 .rates__subtitle {
@@ -4232,6 +4430,30 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @media (max-width: 992px) {
     .rates__subtitle {
         margin-top: 20px;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .title {
+        font-size: 3.4rem;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .title {
+        font-size: 3.2rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .title {
+        font-size: 2.5rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .title {
+        font-size: 2rem;
     }
 }
 
@@ -4257,6 +4479,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 }
 
+@media all and (max-width: 700px) {
+    .card {
+        height: 400px;
+    }
+}
+
 .card__subtitle {
     color: #009fe3;
     font-family: Lato-Black;
@@ -4268,6 +4496,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     font-family: Lato-Black;
     font-size: 60px;
     margin: 22px 0 42px;
+}
+
+@media all and (max-width: 700px) {
+    .card__title {
+        margin: 22px 0 30px;
+    }
 }
 
 .card__text--left-blue, .card__text--right-blue {
@@ -4290,6 +4524,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     width: 100%;
     text-align: center;
     margin-bottom: 44px;
+}
+
+@media all and (max-width: 700px) {
+    .card__text {
+        font-size: 24px;
+    }
 }
 
 .card__btn {
@@ -4347,15 +4587,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     text-align: center;
 }
 
-@media (max-width: 1300px) {
-    .answers__title {
-        font-size: 46px;
-    }
-}
-
 @media (max-width: 992px) {
     .answers__title {
-        font-size: 40px;
         margin-top: 40px;
     }
 }
@@ -4365,6 +4598,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     font-size: 20px;
     text-align: center;
     margin: 20px 0 60px;
+}
+
+@media (max-width: 900px) {
+    .answers__text--top {
+        margin: 18px 0 0;
+    }
 }
 
 .answers__subtitle {
@@ -4446,6 +4685,30 @@ details[open] img {
     -o-transform: rotate(45deg);
 }
 
+@media all and (max-width: 1300px) {
+    .title {
+        font-size: 3.4rem;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .title {
+        font-size: 3.2rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .title {
+        font-size: 2.5rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .title {
+        font-size: 2rem;
+    }
+}
+
 .aboutUs__title {
     font-family: Lato Bold;
     font-size: 72px;
@@ -4455,19 +4718,19 @@ details[open] img {
 
 @media (max-width: 1300px) {
     .aboutUs__title {
-        font-size: 46px;
+        font-size: 2.7rem;
     }
 }
 
 @media (max-width: 992px) {
     .aboutUs__title {
-        font-size: 40px;
+        font-size: 2.2rem;
     }
 }
 
 @media (max-width: 700px) {
     .aboutUs__title {
-        margin: 32px 0 30px;
+        margin: 12px 0 30px;
     }
 }
 
@@ -4511,6 +4774,12 @@ details[open] img {
 
 .aboutUs__text--top, .aboutUs__text--average {
     margin-bottom: 50px;
+}
+
+@media (max-width: 700px) {
+    .aboutUs__text--top, .aboutUs__text--average {
+        margin-bottom: 30px;
+    }
 }
 
 .aboutUs__text--strong {
@@ -4577,10 +4846,33 @@ details[open] img {
     }
 }
 
+@media all and (max-width: 1300px) {
+    .text {
+        font-size: 1.4rem;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .text {
+        font-size: 1.3rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .text {
+        font-size: 1.2rem;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .text {
+        font-size: 1.1rem;
+    }
+}
+
 .sticky {
     width: 100%;
     position: fixed;
-    top: 20px;
     background-color: #0191b6;
     z-index: 100;
     display: none;
