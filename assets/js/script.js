@@ -62,14 +62,38 @@ function scrollToQuery(query, offset) {
   const top = e.offsetTop + offset;
   window.scrollTo({ top: top, behavior: "smooth" });
 }
-scrollToQuery("#top", -120);
+scrollToQuery("#top", -125);
 
 for (let anchor of anchors) {
   anchor.addEventListener("click", function (event) {
     event.preventDefault();
     let blockID = anchor.getAttribute("href");
-    scrollToQuery(blockID, -120);
+    scrollToQuery(blockID, -125);
   });
 }
+
+function plusMinus() {
+  let plusButton = document.querySelector(".plus-minus_active");
+  plusButton.addEventListener("click", function () {
+    plusButton.classList.toggle("plus-minus_new");
+  });
+}
+plusMinus();
+
+function plusMinus2() {
+  let plusButton2 = document.querySelector(".plus-minus2");
+  plusButton2.addEventListener("click", function () {
+    plusButton2.classList.toggle("plus-minus2_active");
+  });
+}
+plusMinus2();
+
+function plusMinus3() {
+  let plusButton3 = document.querySelector(".plus-minus3");
+  plusButton3.addEventListener("click", function () {
+    plusButton3.classList.toggle("plus-minus3_active");
+  });
+}
+plusMinus3();
 
 //# sourceMappingURL=script.js.map
