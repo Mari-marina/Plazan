@@ -464,7 +464,6 @@ button {
 
 body {
     overflow-x: hidden !important;
-    background: linear-gradient(135deg, #f1f9fb, #d9f8f6, #fef2f5);
 }
 
 a {
@@ -1016,6 +1015,14 @@ a {
     }
 }
 
+.bg_header {
+    background-image: url(../images/bgHeader.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 .solutions {
     margin: 0 auto;
 }
@@ -1188,10 +1195,6 @@ a {
         max-width: 640px;
         width: 100%;
     }
-}
-
-.bg {
-    background: linear-gradient(270deg, #f9fdfc, #fcf0f3 49%, #eefaf7);
 }
 
 @media all and (max-width: 1300px) {
