@@ -49,3 +49,18 @@ window.addEventListener("scroll", function () {
     sticky.style.display = "none";
   }
 });
+
+function scrollToQuery(query, offset) {
+  const e = document.querySelector(query);
+  const top = e.offsetTop + offset;
+  window.scrollTo({ top: top, behavior: "smooth" });
+}
+scrollToQuery("#top", -120);
+
+for (let anchor of anchors) {
+  anchor.addEventListener("click", function (event) {
+    event.preventDefault();
+    let blockID = anchor.getAttribute("href");
+    scrollToQuery(blockID, -120);
+  });
+}
