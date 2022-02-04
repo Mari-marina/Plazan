@@ -4671,6 +4671,7 @@ details > summary {
     list-style-type: none;
     background-color: #f6f7fb;
     margin-top: 10px;
+    padding: 0 10px;
 }
 
 details > summary::-webkit-details-marker {
@@ -4691,14 +4692,6 @@ summary {
 
 details[open] {
     background-color: #f6f7fb;
-}
-
-details[open] img {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
 }
 
 @media all and (max-width: 1300px) {
@@ -4729,8 +4722,6 @@ details[open] img {
 .plus-minus2,
 .plus-minus3,
 .plus-minus_new {
-    width: 15px;
-    height: 15px;
     right: 0px;
     top: 0px;
     background: url(./../images/dekor/Plus.png) no-repeat center;
@@ -4739,26 +4730,23 @@ details[open] img {
     top: 10px;
     width: 15px;
     height: 15px;
-    background-size: contain;
+    background-size: cover;
+    z-index: 2;
 }
 
 .plus-minus_active,
 .plus-minus3_active,
 .plus-minus2_active {
     background: url(./../images/dekor/minus.png) no-repeat center;
-    width: 15px;
-    height: 15px;
     background-size: contain;
     position: relative;
     top: 10px;
     width: 15px;
     height: 15px;
-    background-size: contain;
+    z-index: 2;
 }
 
 .plus-minus_new {
-    width: 15px;
-    height: 15px;
     right: 0px;
     top: 0px;
     background: url(./../images/dekor/Plus.png) no-repeat center;
@@ -4767,7 +4755,13 @@ details[open] img {
     top: 10px;
     width: 15px;
     height: 15px;
-    background-size: contain;
+    background-size: cover;
+    z-index: 2;
+}
+
+.plus {
+    width: 15px;
+    height: 15px;
 }
 
 .aboutUs__title {
