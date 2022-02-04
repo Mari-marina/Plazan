@@ -700,7 +700,7 @@ a {
     }
 }
 
-.media__media {
+.media__phone {
     color: #0091b5;
     font-size: 24px;
     font-family: Lato-Black;
@@ -1299,7 +1299,7 @@ a {
 
 @media all and (max-width: 450px) {
     .block__img {
-        width: 64px;
+        max-width: 4.1rem;
     }
 }
 
