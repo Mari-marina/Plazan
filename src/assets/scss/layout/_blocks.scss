@@ -53,6 +53,9 @@
   }
   &__img {
     margin-top: 20px;
+    @media all and (max-width: 450px) {
+      width: 64px;
+    }
   }
   &__content {
     display: flex;
