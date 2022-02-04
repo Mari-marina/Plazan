@@ -131,26 +131,31 @@
     }
   }
 }
-.bg {
-  background: -webkit-linear-gradient(
-    270deg,
-    rgb(249, 253, 252),
-    rgb(254, 241, 244) 49%,
-    rgb(238, 250, 247)
-  );
-  background: -moz-linear-gradient(
-    270deg,
-    rgb(249, 253, 252),
-    rgb(252, 241, 244) 49%,
-    rgb(238, 250, 247)
-  );
-  background: linear-gradient(
-    270deg,
-    rgb(249, 253, 252),
-    rgb(252, 240, 243) 49%,
-    rgb(238, 250, 247)
-  );
-}
+// .bg {
+//   // background: -webkit-linear-gradient(
+//   //   270deg,
+//   //   rgb(249, 253, 252),
+//   //   rgb(254, 241, 244) 49%,
+//   //   rgb(238, 250, 247)
+//   // );
+//   // background: -moz-linear-gradient(
+//   //   270deg,
+//   //   rgb(249, 253, 252),
+//   //   rgb(252, 241, 244) 49%,
+//   //   rgb(238, 250, 247)
+//   // );
+//   // background: linear-gradient(
+//   //   270deg,
+//   //   rgb(249, 253, 252),
+//   //   rgb(252, 240, 243) 49%,
+//   //   rgb(238, 250, 247)
+//   // );
+//   background-image: url(../images/bggg.png);
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 100vh;
+// }
 
 .title {
   @media all and (max-width: 1300px) {
