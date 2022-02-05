@@ -72,26 +72,52 @@ for (let anchor of anchors) {
   });
 }
 
-function plusMinus() {
-  let plusButton = document.querySelector(".plus-minus_active");
-  plusButton.addEventListener("click", function () {
-    plusButton.classList.toggle("plus-minus_new");
+// function plusMinus() {
+//   let plusButton = document.querySelector(".plus-minus_active");
+//   plusButton.addEventListener("click", function () {
+//     plusButton.classList.toggle("plus-minus_new");
+//   });
+// }
+// plusMinus();
+
+// function plusMinus2() {
+//   let plusButton2 = document.querySelector(".plus-minus2");
+//   plusButton2.addEventListener("click", function () {
+//     plusButton2.classList.toggle("plus-minus2_active");
+//   });
+// }
+// plusMinus2();
+
+// function plusMinus3() {
+//   let plusButton3 = document.querySelector(".plus-minus3");
+//   plusButton3.addEventListener("click", function () {
+//     plusButton3.classList.toggle("plus-minus3_active");
+//   });
+// }
+// plusMinus3();
+
+function plusMinus1() {
+  let block = document.querySelector(".answers__details1");
+  let plus = document.querySelector(".plus1");
+  block.addEventListener("click", function () {
+    plus.classList.toggle("plus1_new");
   });
 }
-plusMinus();
+plusMinus1();
 
 function plusMinus2() {
-  let plusButton2 = document.querySelector(".plus-minus2");
-  plusButton2.addEventListener("click", function () {
-    plusButton2.classList.toggle("plus-minus2_active");
+  let block = document.querySelector(".answers__details2");
+  let plus = document.querySelector(".plus2");
+  block.addEventListener("click", function () {
+    plus.classList.toggle("plus2_active");
   });
 }
 plusMinus2();
-
 function plusMinus3() {
-  let plusButton3 = document.querySelector(".plus-minus3");
-  plusButton3.addEventListener("click", function () {
-    plusButton3.classList.toggle("plus-minus3_active");
+  let block = document.querySelector(".answers__details3");
+  let plus = document.querySelector(".plus3");
+  block.addEventListener("click", function () {
+    plus.classList.toggle("plus3_active");
   });
 }
 plusMinus3();

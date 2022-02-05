@@ -3519,10 +3519,9 @@ details[open] {
   .title {
     font-size: 2rem; } }
 
-.plus-minus,
-.plus-minus2,
-.plus-minus3,
-.plus-minus_new {
+.plus1_active,
+.plus2,
+.plus3 {
   right: 0px;
   top: 0px;
   background: url(./../images/dekor/Plus.png) no-repeat center;
@@ -3534,9 +3533,9 @@ details[open] {
   background-size: cover;
   z-index: 2; }
 
-.plus-minus_active,
-.plus-minus3_active,
-.plus-minus2_active {
+.plus1,
+.plus2_active,
+.plus3_active {
   background: url(./../images/dekor/minus.png) no-repeat center;
   background-size: contain;
   position: relative;
@@ -3560,6 +3559,18 @@ details[open] {
 .plus {
   width: 15px;
   height: 15px; }
+
+.plus1_new {
+  right: 0px;
+  top: 0px;
+  background: url(./../images/dekor/Plus.png) no-repeat center;
+  transition: 0.2s;
+  position: relative;
+  top: 10px;
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+  z-index: 2; }
 
 .aboutUs__title {
   font-family: Lato Bold;

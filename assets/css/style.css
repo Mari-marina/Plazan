@@ -4562,6 +4562,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     border-bottom: solid 2px #020202;
 }
 
+@media all and (max-width: 500px) {
+    .card__text--top, .card__text--average, .card__text--bottom {
+        margin-bottom: 12px;
+    }
+}
+
 .card__text {
     font-family: Lato-Black;
     font-size: 30px;
@@ -4574,6 +4580,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @media all and (max-width: 700px) {
     .card__text {
         font-size: 24px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .card__text {
+        margin-bottom: 24px;
     }
 }
 
