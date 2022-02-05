@@ -3007,7 +3007,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     font-family: Lato Bold;
     max-width: 788px;
     padding-bottom: 72px;
-    text-align: center; }
+    text-align: center;
+    margin: 0 auto; }
     @media all and (max-width: 992px) {
       .questions__title {
         text-align: center; } }
@@ -3460,7 +3461,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   font-size: 16px;
   color: #8d8f94;
   margin-top: 36px;
-  line-height: 160%; }
+  line-height: 160%;
+  padding: 0 10px 5px; }
 
 .answers__btn {
   width: 238px;
