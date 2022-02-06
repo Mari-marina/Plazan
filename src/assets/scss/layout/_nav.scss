@@ -73,7 +73,6 @@
   }
   &__link:hover {
     color: $accentColor;
-    border-bottom: solid 2px $accentColor;
     @media all and (max-width: 994px) {
       border-bottom: none;
     }

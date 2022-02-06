@@ -25,12 +25,16 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
+
     @media (max-width: 1155px) {
       // flex-wrap: wrap;
       justify-content: center;
     }
     @media (max-width: 450px) {
       flex-wrap: wrap;
+    }
+    @media (max-width: 744px) {
+      margin-bottom: 10px;
     }
   }
   &__logo {
@@ -98,6 +102,9 @@
     }
     @media (max-width: 888px) {
       margin: 32px 0 30px;
+    }
+    @media (max-width: 744px) {
+      margin: 22px 0 30px;
     }
   }
   &__logo {

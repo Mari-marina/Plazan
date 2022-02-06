@@ -19,7 +19,7 @@
   position: fixed;
   width: 100%;
 
-  background: #f0fcfd;
+  background: #0091b6;
 
   &__logo--media {
     width: 250px;
@@ -30,11 +30,17 @@
     @media all and (max-width: 600px) {
       max-width: 150px;
     }
+    @media all and (max-width: 388px) {
+      max-width: 110px;
+    }
+    @media all and (max-width: 356px) {
+      max-width: 96px;
+    }
   }
   &__phone {
     font-size: 20px;
     font-family: Lato-Black;
-    color: $accentColor;
+    color: #91d2df;
     margin-right: 80px;
     @media all and (max-width: 800px) {
       font-size: 20px;
@@ -42,7 +48,14 @@
     @media all and (max-width: 420px) {
       font-size: 16px;
     }
-    @media all and (max-width: 360px) {
+    @media all and (max-width: 388px) {
+      font-size: 18px;
+    }
+    @media all and (max-width: 356px) {
+      font-size: 16px;
+      margin-right: 65px;
+    }
+    @media all and (max-width: 319px) {
       display: none;
     }
   }

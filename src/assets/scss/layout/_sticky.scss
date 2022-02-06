@@ -4,7 +4,7 @@
   width: 100%;
   position: fixed;
 
-  background-color: #0191b6;
+  background-color: #0091b6;
   z-index: 100;
   display: none;
 
@@ -31,7 +31,7 @@
       font-size: 18px;
     }
     &:hover {
-      border-bottom: solid 3px #91d2df;
+      color: #111111;
     }
   }
   &__phone {
@@ -45,6 +45,10 @@
     font-family: Lato-Ligh;
     color: #91d2df;
     border-bottom: solid 1px #ffffff;
+    &:hover {
+      color: black;
+      border-bottom: solid 1px black;
+    }
   }
   &__header__phone {
     display: flex;

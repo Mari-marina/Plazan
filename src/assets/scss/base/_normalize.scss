@@ -564,7 +564,7 @@ strong {
   }
 }
 .container {
-  max-width: 100% !important;
+  // max-width: 100% !important;
   overflow-x: hidden !important;
 }
 @media screen and (max-width: 667px) {
@@ -572,10 +572,13 @@ strong {
     overflow-x: hidden !important;
   }
 
-  .container,
+  // .container,
   .main_container,
   .footer_container {
     max-width: 100% !important;
     overflow-x: hidden !important;
   }
+}
+.footer_container {
+  border-bottom: solid 1px #96979b;
 }

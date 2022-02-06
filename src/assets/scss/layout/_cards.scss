@@ -116,3 +116,14 @@
     }
   }
 }
+.Card__text-crossed-left,
+.card__text-crossed-average,
+.card__text-crossed--bottom {
+  font-family: Lato-Regular;
+  font-size: 20px;
+  margin-bottom: 24px;
+  color: #8d8f94;
+  @media all and (max-width: 500px) {
+    margin-bottom: 12px;
+  }
+}
