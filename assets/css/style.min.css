@@ -557,6 +557,9 @@ strong {
   @media all and (max-width: 994px) {
     .burger {
       display: block; } }
+  @media all and (max-width: 420px) {
+    .burger {
+      top: 16px; } }
 
 .burger_active {
   background: url(./../images/close.svg) no-repeat center;
@@ -3845,6 +3848,9 @@ details[open] {
   width: 100%;
   background: #f0fcfd;
   z-index: 1; }
+  @media all and (max-width: 420px) {
+    .fix__nav {
+      height: 70px; } }
   @media all and (min-width: 994px) {
     .fix__nav {
       display: none; } }
