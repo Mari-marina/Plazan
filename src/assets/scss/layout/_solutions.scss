@@ -87,12 +87,15 @@
   }
 
   &__wrapper {
-    margin-top: 70px;
+    padding-top: 70px;
     display: flex;
     justify-content: center;
-    @media all and (max-width: 1000px) {
+    @media all and (max-width: 1200px) {
+      align-items: flex-end;
+    }
+    @media all and (max-width: 760px) {
       flex-direction: column;
-      margin-top: 30px;
+      padding-top: 30px;
     }
   }
   &__images {
@@ -114,13 +117,13 @@
     background: url(./../images/solutions/Vector0.png) no-repeat center;
     width: 56px;
     height: 35px;
-    top: -77px;
+    top: 35px;
     left: 416px;
     @media all and (max-width: 1300px) {
-      top: -24px;
+      top: 30px;
     }
     @media all and (max-width: 700px) {
-      top: -12px;
+      top: 5px;
       left: 230px;
     }
   }
@@ -129,6 +132,14 @@
       max-width: 640px;
       width: 100%;
     }
+    @media all and (max-width: 1200px) {
+      max-width: 420px;
+      width: 100%;
+    }
+  }
+  @media all and (max-width: 760px) {
+    max-width: 350px;
+    width: 100%;
   }
 }
 // .bg {

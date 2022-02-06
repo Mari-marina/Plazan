@@ -60,6 +60,10 @@
     @media all and (max-width: 640px) {
       font-size: 20px;
     }
+    &:hover {
+      color: black;
+      border-bottom: solid 1px black;
+    }
   }
   &__title {
     font-family: Lato-Regular;
@@ -67,9 +71,11 @@
     line-height: 130%;
     @media all and (max-width: 992px) {
       font-size: 40px;
-      text-align: center;
       line-height: 100%;
       margin-top: 30px;
+    }
+    @media all and (max-width: 768px) {
+      text-align: center;
     }
     @media all and (max-width: 400px) {
       font-size: 34px;
@@ -77,18 +83,25 @@
   }
   &__title--srong {
     font-size: 72px;
-    @media all and (max-width: 992px) {
-      font-size: 44px;
-      text-align: center;
+    font-weight: 800;
+    font-weight: bold;
+    @media all and (max-width: 1300px) {
+      font-size: 4.2rem;
     }
-    @media all and (max-width: 400px) {
-      font-size: 38px;
+    @media all and (max-width: 1100px) {
+      font-size: 3.8rem;
+    }
+    @media all and (max-width: 900px) {
+      font-size: 2.8rem;
+    }
+    @media all and (max-width: 900px) {
+      font-size: 2.5rem;
     }
   }
   &__text {
     font-family: Lato-Ligh;
     font-size: 24px;
-    margin-top: 144px;
+    margin-top: 110px;
     line-height: 140%;
     @media all and (max-width: 1300px) {
       margin-top: 100px;
@@ -171,9 +184,6 @@
     }
   }
 }
-.container {
-  border-bottom: solid 5px #0494b8;
-}
 
 .text {
   @media all and (max-width: 1300px) {
@@ -210,6 +220,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom: solid 5px #0494b8;
+
   // height: 100vh;
 }
 .bg_main {
@@ -217,5 +229,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
