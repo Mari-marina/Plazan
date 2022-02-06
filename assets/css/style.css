@@ -5274,6 +5274,7 @@ details[open] {
     max-width: 100% !important;
     overflow-x: hidden !important;
     height: 90px;
+    z-index: 2;
     top: 0;
     left: 0;
     display: -ms-flexbox;
@@ -5285,7 +5286,6 @@ details[open] {
     position: fixed;
     width: 100%;
     background: #f0fcfd;
-    z-index: 1;
 }
 
 @media all and (max-width: 420px) {

@@ -3839,7 +3839,7 @@ details[open] {
   max-width: 100% !important;
   overflow-x: hidden !important;
   height: 90px;
-  z-index: 2;
+  z-index: 3;
   top: 0;
   left: 0;
   display: flex;
@@ -3847,8 +3847,7 @@ details[open] {
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  background: #f0fcfd;
-  z-index: 1; }
+  background: #f0fcfd; }
   @media all and (max-width: 420px) {
     .fix__nav {
       height: 70px; } }
