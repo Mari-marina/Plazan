@@ -3839,6 +3839,7 @@ details[open] {
   max-width: 100% !important;
   overflow-x: hidden !important;
   height: 90px;
+  z-index: 2;
   top: 0;
   left: 0;
   display: flex;
