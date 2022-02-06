@@ -1,0 +1,117 @@
+.go_top {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 20px;
+  bottom: 36px;
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.footer {
+  padding-top: 70px;
+  @media (max-width: 888px) {
+    padding-top: 30px;
+  }
+  @media (max-width: 600px) {
+    padding-top: 20px;
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    @media (max-width: 1155px) {
+      // flex-wrap: wrap;
+      justify-content: center;
+    }
+    @media (max-width: 450px) {
+      flex-wrap: wrap;
+    }
+  }
+  &__logo {
+    @media (max-width: 1100px) {
+      width: 200px;
+    }
+  }
+  &__nav::after {
+    content: "";
+    position: absolute;
+    background: url(./../images/dekor/decor8.png) no-repeat center;
+    width: 151px;
+    height: 168px;
+    bottom: 95px;
+    right: 4px;
+    @media (max-width: 637px) {
+      display: none;
+    }
+  }
+  &__nav__list {
+    display: flex;
+    @media (max-width: 888px) {
+      margin-top: 10px;
+    }
+    @media (max-width: 780px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  &__nav__item {
+    margin-left: 30px;
+    @media all and (max-width: 1160px) {
+      margin-left: 20px;
+    }
+    @media all and (max-width: 1100px) {
+      margin-left: 15px;
+    }
+    @media (max-width: 751px) {
+      margin-top: 8px;
+    }
+  }
+  &__nav__link:hover {
+    color: $accentColor;
+    border-bottom: solid 2px $accentColor;
+  }
+  &__phone {
+    color: $accentColor;
+    font-family: Lato-Black;
+    font-size: 24px;
+  }
+  &__small {
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #666666;
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 80px;
+    @media (max-width: 900px) {
+      margin: 30px 0 50px;
+      flex-direction: column;
+    }
+    @media (max-width: 888px) {
+      margin: 32px 0 30px;
+    }
+  }
+  &__logo {
+    @media all and (max-width: 840px) {
+      max-width: 160px;
+    }
+    @media all and (max-width: 640px) {
+      max-width: 150px;
+    }
+  }
+  &__img {
+    @media all and (max-width: 901px) {
+      margin: 10px 0 10px;
+    }
+  }
+}
+.footer__nav__link {
+  font-family: Lato SemiBold;
+}

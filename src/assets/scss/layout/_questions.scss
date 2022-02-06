@@ -1,0 +1,141 @@
+@import "./../base/vars";
+.questions {
+  @media all and (max-width: 1000px) {
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  margin-top: 72px;
+  &__subtitle {
+    font-size: 30px;
+    font-family: Lato-Black;
+    color: rgb(0, 145, 181);
+    text-align: center;
+    margin-bottom: 24px;
+    @media all and (max-width: 900px) {
+      font-size: 24px;
+    }
+  }
+  &__title {
+    font-size: 72px;
+    font-family: Lato Bold;
+    max-width: 788px;
+    // margin: 0 auto;
+    padding-bottom: 72px;
+    text-align: center;
+    margin: 0 auto;
+    @media all and (max-width: 992px) {
+      text-align: center;
+    }
+  }
+
+  &__wrapper {
+    justify-content: center;
+  }
+
+  &__wrapper,
+  &__form {
+    display: flex;
+    @media all and (max-width: 1000px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  &__form {
+    flex-direction: column;
+    margin-left: 140px;
+    @media all and (max-width: 1392px) {
+      margin-left: 50px;
+    }
+    @media all and (max-width: 1172px) {
+      margin-top: 20px;
+      right: 20px;
+      position: relative;
+    }
+  }
+
+  &__input_name,
+  &__input_mail,
+  &__textarea {
+    width: 440px;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-size: 24px;
+    font-family: Lato SemiBold;
+    padding: 0 10px;
+    box-shadow: 0px 4px 18px rgba(104, 104, 105, 0.35),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+    @media all and (max-width: 1200px) {
+      width: 400px;
+    }
+    @media all and (max-width: 480px) {
+      max-width: 460px;
+      width: 100%;
+      font-size: 18px;
+    }
+  }
+  &__input_name,
+  &__input_mail {
+    height: 72px;
+    margin-bottom: 26px;
+    @media all and (max-width: 1172px) {
+      height: 60px;
+    }
+  }
+  &__textarea {
+    height: 208px;
+    padding-top: 10px;
+    @media all and (max-width: 1172px) {
+      height: 160px;
+    }
+  }
+  &__button {
+    width: 238px;
+    height: 72px;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: Lato-Medium;
+    font-size: 24px;
+    box-shadow: 0px 4px 18px rgba(52, 119, 196, 0.35),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+    margin-top: 34px;
+  }
+  &__button:hover {
+    background-color: #5eb0f3;
+  }
+  &__img {
+    max-width: 530px;
+    width: 100%;
+    @media all and (max-width: 1000px) {
+      max-width: 400px;
+      height: 100%;
+    }
+    @media all and (max-width: 450px) {
+      max-width: 350px;
+      height: 100%;
+    }
+  }
+}
+
+.title {
+  @media all and (max-width: 1300px) {
+    font-size: 3.4rem;
+  }
+  @media all and (max-width: 1100px) {
+    font-size: 3.2rem;
+  }
+  @media all and (max-width: 900px) {
+    font-size: 2.5rem;
+  }
+  @media all and (max-width: 900px) {
+    font-size: 2rem;
+  }
+}

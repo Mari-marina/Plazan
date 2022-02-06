@@ -1,0 +1,130 @@
+@import "./../base/vars";
+.aboutUs {
+  padding-bottom: 100px;
+  @media (max-width: 888px) {
+    padding-bottom: 60px;
+  }
+  @media (max-width: 600px) {
+    padding-bottom: 30px;
+  }
+  &__title {
+    font-family: Lato Bold;
+    font-size: 72px;
+    text-align: center;
+    margin: 72px 0 64px;
+    @media (max-width: 1300px) {
+      font-size: 2.7rem;
+    }
+    @media (max-width: 992px) {
+      font-size: 2.2rem;
+    }
+    @media (max-width: 700px) {
+      margin: 12px 0 30px;
+    }
+  }
+  &__img {
+    max-width: 470px;
+    height: 606px;
+    width: 100%;
+    z-index: 1;
+    @media (max-width: 1200px) {
+      margin-top: 15px;
+    }
+    @media (max-width: 1164px) {
+      width: 350px;
+      height: 100%;
+    }
+    @media (max-width: 616px) {
+      max-width: 350px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__text--top,
+  &__text--average,
+  &__text--bottom {
+    font-family: Lato-Regular;
+    font-size: 24px;
+    color: #8d8f94;
+    margin-left: 70px;
+    margin-right: 96px;
+    @media (max-width: 1200px) {
+      margin-right: 40px;
+    }
+    @media (max-width: 700px) {
+      margin: 0;
+    }
+  }
+  &__text--top,
+  &__text--average {
+    margin-bottom: 50px;
+    @media (max-width: 700px) {
+      margin-bottom: 30px;
+    }
+  }
+  &__text--strong {
+    color: black;
+    font-family: Lato-Black;
+  }
+  &__wrapper,
+  &__wrap {
+    display: flex;
+  }
+  &__wrap {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  &__wrapper {
+    margin-top: 64px;
+    position: relative;
+
+    @media (max-width: 1164px) {
+      align-items: flex-end;
+    }
+
+    @media (max-width: 850px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  &__wrapper::after {
+    content: "";
+    position: absolute;
+    background: url(./../images/dekor/decor7.svg) no-repeat center;
+    width: 268px;
+    height: 268px;
+    bottom: -82px;
+    right: 278px;
+
+    @media (max-width: 1164px) {
+      display: none;
+    }
+  }
+  &__wrapper::before {
+    content: "";
+    position: absolute;
+    background: url(./../images/dekor/about.png) no-repeat center;
+    width: 52px;
+    height: 42px;
+    top: 208px;
+    left: 0px;
+    @media (max-width: 700px) {
+      display: none;
+    }
+  }
+}
+
+.text {
+  @media all and (max-width: 1300px) {
+    font-size: 1.4rem;
+  }
+  @media all and (max-width: 1100px) {
+    font-size: 1.3rem;
+  }
+  @media all and (max-width: 900px) {
+    font-size: 1.2rem;
+  }
+  @media all and (max-width: 640px) {
+    font-size: 1.1rem;
+  }
+}

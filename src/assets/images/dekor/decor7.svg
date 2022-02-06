@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="264" height="264" viewBox="0 0 264 264">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1ae4be;
+        fill-opacity: 0;
+        stroke: #5db8e4;
+        stroke-linejoin: round;
+        stroke-opacity: 0.48;
+        stroke-width: 6px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="border" class="cls-1" d="M763,6830l212,40a21,21,0,0,0,21-21V6637a21,21,0,0,0-21-21H763a21,21,0,0,0-21,21v172A21,21,0,0,0,763,6830Z" transform="translate(-737 -6611)"/>
+</svg>
