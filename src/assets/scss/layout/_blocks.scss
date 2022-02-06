@@ -33,26 +33,32 @@
   @media all and (max-width: 1327px) {
     width: 320px;
   }
-  @media all and (max-width: 1109px) {
-    width: 356px;
+  @media all and (max-width: 1209px) {
+    width: 300px;
   }
-  @media all and (max-width: 786px) {
+  @media all and (max-width: 1109px) {
+    width: 280px;
+  }
+  @media all and (max-width: 960px) {
     width: 340px;
   }
-  @media all and (max-width: 760px) {
+  @media all and (max-width: 777px) {
+    width: 300px;
+  }
+  @media all and (max-width: 762px) {
     width: 356px;
     height: 100%;
   }
 
   &:not(:nth-child(3n)) {
     margin-right: 30px;
-    @media all and (max-width: 1109px) {
+    @media all and (max-width: 960px) {
       margin-right: 0;
     }
   }
 
   &:not(:nth-child(2n)) {
-    @media all and (max-width: 1109px) {
+    @media all and (max-width: 960px) {
       margin-right: 30px;
     }
     @media all and (max-width: 878px) {
@@ -93,7 +99,7 @@
 .block--eighth {
   position: relative;
   top: 20px;
-  @media all and (max-width: 1109px) {
+  @media all and (max-width: 960px) {
     top: 0px;
   }
 }
@@ -103,7 +109,7 @@
 .block--ninth {
   position: relative;
   top: 40px;
-  @media all and (max-width: 1109px) {
+  @media all and (max-width: 960px) {
     top: 0px;
   }
 }
