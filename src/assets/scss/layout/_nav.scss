@@ -108,6 +108,9 @@
       width: 180px;
     }
   }
+  // &__fix {
+
+  // }
 }
 .logo--media {
   display: none;
@@ -124,7 +127,7 @@
   height: 40px;
   position: fixed;
   right: 20px;
-  top: 36px;
+  top: 25px;
   background: url(./../images/burger.svg) no-repeat center;
   cursor: pointer;
   transition: 0.2s;

@@ -564,13 +564,13 @@ strong {
   }
 }
 .container {
-  //   max-width: 100% !important;
-  //   overflow-x: hidden !important;
-  // }
-  // @media screen and (max-width: 667px) {
-  //   body {
-  //     overflow-x: hidden !important;
-  //   }
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+@media screen and (max-width: 667px) {
+  body {
+    overflow-x: hidden !important;
+  }
 
   .container,
   .main_container,

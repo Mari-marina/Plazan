@@ -16,17 +16,15 @@
     align-items: flex-end;
     flex-direction: column;
     @media all and (max-width: 994px) {
-      position: relative;
-      top: -76px;
-      right: 34px;
+      display: none;
     }
-    @media all and (max-width: 652px) {
-      position: relative;
-      top: 0;
-      right: 0;
-      left: 4px;
-      align-items: flex-start;
-    }
+    // @media all and (max-width: 652px) {
+    //   position: relative;
+    //   top: 0;
+    //   right: 0;
+    //   left: 4px;
+    //   align-items: flex-start;
+    // }
   }
   &__phone::before {
     content: "";
@@ -147,10 +145,13 @@
     align-items: flex-end;
     padding-bottom: 70px;
     position: relative;
+    @media all and (max-width: 994px) {
+      margin-top: 50px;
+    }
     @media all and (max-width: 768px) {
       align-items: center;
       flex-direction: column;
-      padding-bottom: 30px;
+      padding-bottom: 20px;
     }
   }
   &__wrapper::after {
