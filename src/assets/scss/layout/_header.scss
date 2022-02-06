@@ -67,6 +67,7 @@
     font-family: Lato-Regular;
     font-size: 60px;
     line-height: 130%;
+    font-weight: normal;
     @media all and (max-width: 992px) {
       font-size: 40px;
       line-height: 100%;
@@ -226,7 +227,7 @@
   // height: 100vh;
 }
 .bg_main {
-  background-image: url(../images/bgMain.png);
+  background-image: url(../images/bgMainNew.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
