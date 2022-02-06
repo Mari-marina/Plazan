@@ -422,17 +422,18 @@ strong {
       padding-top: 30px; } }
 
 .container {
-  max-width: 100% !important;
   overflow-x: hidden !important; }
 
 @media screen and (max-width: 667px) {
   body {
     overflow-x: hidden !important; }
-  .container,
   .main_container,
   .footer_container {
     max-width: 100% !important;
     overflow-x: hidden !important; } }
+
+.footer_container {
+  border-bottom: solid 1px #96979b; }
 
 .nav {
   display: flex;
@@ -501,8 +502,7 @@ strong {
         font-family: Lato-Black;
         font-size: 20px; } }
   .nav__link:hover {
-    color: #0091b5;
-    border-bottom: solid 2px #0091b5; }
+    color: #0091b5; }
     @media all and (max-width: 994px) {
       .nav__link:hover {
         border-bottom: none; } }
@@ -669,7 +669,7 @@ strong {
 .header__text {
   font-family: Lato-Ligh;
   font-size: 24px;
-  margin-top: 110px;
+  margin-top: 72px;
   line-height: 140%; }
   @media all and (max-width: 1300px) {
     .header__text {
@@ -3330,6 +3330,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     @media (max-width: 450px) {
       .footer__nav {
         flex-wrap: wrap; } }
+    @media (max-width: 744px) {
+      .footer__nav {
+        margin-bottom: 10px; } }
   @media (max-width: 1100px) {
     .footer__logo {
       width: 200px; } }
@@ -3388,6 +3391,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     @media (max-width: 888px) {
       .footer__bottom {
         margin: 32px 0 30px; } }
+    @media (max-width: 744px) {
+      .footer__bottom {
+        margin: 22px 0 30px; } }
   @media all and (max-width: 840px) {
     .footer__logo {
       max-width: 160px; } }
@@ -3539,6 +3545,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         justify-content: space-around;
         flex-wrap: wrap; } }
 
+.Card__text-crossed-left,
+.card__text-crossed-average,
+.card__text-crossed--bottom {
+  font-family: Lato-Regular;
+  font-size: 20px;
+  margin-bottom: 24px;
+  color: #8d8f94; }
+  @media all and (max-width: 500px) {
+    .Card__text-crossed-left,
+    .card__text-crossed-average,
+    .card__text-crossed--bottom {
+      margin-bottom: 12px; } }
+
 .answers__title {
   margin-top: 70px;
   font-family: Lato Bold;
@@ -3569,7 +3588,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   font-family: Lato-Regular;
   font-size: 16px;
   color: #8d8f94;
-  margin-top: 36px;
   line-height: 160%;
   padding: 0 50px 48px; }
   @media all and (max-width: 950px) {
@@ -3604,7 +3622,7 @@ details > summary {
   list-style-type: none;
   background-color: #f6f7fb;
   margin-top: 10px;
-  padding: 20px 50px 28px; }
+  padding: 10px 46px 28px; }
   @media all and (max-width: 950px) {
     details > summary {
       padding: 5px 20px 10px; } }
@@ -3810,7 +3828,7 @@ details[open] {
 .sticky {
   width: 100%;
   position: fixed;
-  background-color: #0191b6;
+  background-color: #0091b6;
   z-index: 100;
   display: none; }
   @media all and (max-width: 994px) {
@@ -3832,7 +3850,7 @@ details[open] {
       .sticky__nav__item {
         font-size: 18px; } }
     .sticky__nav__item:hover {
-      border-bottom: solid 3px #91d2df; }
+      color: #111111; }
   .sticky__phone {
     font-size: 36px;
     font-family: Lato-Black;
@@ -3843,6 +3861,9 @@ details[open] {
     font-family: Lato-Ligh;
     color: #91d2df;
     border-bottom: solid 1px #ffffff; }
+    .sticky__phone__link:hover {
+      color: black;
+      border-bottom: solid 1px black; }
   .sticky__header__phone {
     display: flex;
     align-items: center;
@@ -3879,7 +3900,7 @@ details[open] {
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  background: #f0fcfd; }
+  background: #0091b6; }
   @media all and (max-width: 420px) {
     .fix__nav {
       height: 70px; } }
@@ -3895,10 +3916,16 @@ details[open] {
     @media all and (max-width: 600px) {
       .fix__nav__logo--media {
         max-width: 150px; } }
+    @media all and (max-width: 388px) {
+      .fix__nav__logo--media {
+        max-width: 110px; } }
+    @media all and (max-width: 356px) {
+      .fix__nav__logo--media {
+        max-width: 96px; } }
   .fix__nav__phone {
     font-size: 20px;
     font-family: Lato-Black;
-    color: #0091b5;
+    color: #91d2df;
     margin-right: 80px; }
     @media all and (max-width: 800px) {
       .fix__nav__phone {
@@ -3906,7 +3933,14 @@ details[open] {
     @media all and (max-width: 420px) {
       .fix__nav__phone {
         font-size: 16px; } }
-    @media all and (max-width: 360px) {
+    @media all and (max-width: 388px) {
+      .fix__nav__phone {
+        font-size: 18px; } }
+    @media all and (max-width: 356px) {
+      .fix__nav__phone {
+        font-size: 16px;
+        margin-right: 65px; } }
+    @media all and (max-width: 319px) {
       .fix__nav__phone {
         display: none; } }
 
