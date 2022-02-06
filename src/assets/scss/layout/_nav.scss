@@ -137,6 +137,9 @@
   @media all and (max-width: 994px) {
     display: block;
   }
+  @media all and (max-width: 420px) {
+    top: 16px;
+  }
 }
 .burger_active {
   background: url(./../images/close.svg) no-repeat center;
