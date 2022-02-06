@@ -80,6 +80,9 @@
     color: $accentColor;
     border-bottom: solid 2px $accentColor;
   }
+  &__line {
+    border: solid 1px #96979b;
+  }
   &__phone {
     color: $accentColor;
     font-family: Lato-Black;
