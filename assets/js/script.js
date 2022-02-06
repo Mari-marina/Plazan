@@ -72,30 +72,6 @@ for (let anchor of anchors) {
   });
 }
 
-// function plusMinus() {
-//   let plusButton = document.querySelector(".plus-minus_active");
-//   plusButton.addEventListener("click", function () {
-//     plusButton.classList.toggle("plus-minus_new");
-//   });
-// }
-// plusMinus();
-
-// function plusMinus2() {
-//   let plusButton2 = document.querySelector(".plus-minus2");
-//   plusButton2.addEventListener("click", function () {
-//     plusButton2.classList.toggle("plus-minus2_active");
-//   });
-// }
-// plusMinus2();
-
-// function plusMinus3() {
-//   let plusButton3 = document.querySelector(".plus-minus3");
-//   plusButton3.addEventListener("click", function () {
-//     plusButton3.classList.toggle("plus-minus3_active");
-//   });
-// }
-// plusMinus3();
-
 function plusMinus1() {
   let block = document.querySelector(".answers__details1");
   let plus = document.querySelector(".plus1");
