@@ -5274,7 +5274,7 @@ details[open] {
     max-width: 100% !important;
     overflow-x: hidden !important;
     height: 90px;
-    z-index: 2;
+    z-index: 3;
     top: 0;
     left: 0;
     display: -ms-flexbox;
