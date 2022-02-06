@@ -1128,8 +1128,8 @@ strong {
 .solutions__item:nth-child(1)::before, .solutions__item:nth-child(2)::before, .solutions__item:nth-child(3)::before, .solutions__item:nth-child(4)::before, .solutions__item:nth-child(5)::before, .solutions__item:nth-child(6)::before, .solutions__item:nth-child(7)::before, .solutions__item:nth-child(8)::before {
     content: "";
     position: absolute;
-    width: 38px;
-    height: 38px;
+    width: 39px;
+    height: 39px;
 }
 
 .solutions__item:nth-child(1)::before {
