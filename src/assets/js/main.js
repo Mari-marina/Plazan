@@ -11,6 +11,10 @@ let overlay = document.querySelector(".nav__list");
 overlay.addEventListener("click", function () {
   menu.classList.toggle("active");
 });
+let open = document.querySelector(".nav__list");
+open.addEventListener("click", function () {
+  burgerButton.classList.toggle("burger_active");
+});
 
 function burgerMenu() {
   burgerButton.addEventListener("click", function () {
