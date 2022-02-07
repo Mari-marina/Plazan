@@ -507,10 +507,6 @@ strong {
     }
 }
 
-.footer_container {
-    border-bottom: solid 1px #96979b;
-}
-
 .nav {
     display: -ms-flexbox;
     display: flex;
@@ -4558,6 +4554,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     border-bottom: solid 2px #0091b5;
 }
 
+.footer__line {
+    border: solid 1px #96979b;
+}
+
 .footer__phone {
     color: #0091b5;
     font-family: Lato-Black;
@@ -4818,7 +4818,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .card__btn:hover {
-    background-color: #5eb0f3;
+    background-color: #67b4f3;
 }
 
 .card__wrap {

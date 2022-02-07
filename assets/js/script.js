@@ -13,7 +13,7 @@ button.addEventListener("click", function () {
   menu.classList.toggle("active");
 });
 
-const overlay = document.querySelector(".nav__list");
+let overlay = document.querySelector(".nav__list");
 overlay.addEventListener("click", function () {
   menu.classList.toggle("active");
 });
