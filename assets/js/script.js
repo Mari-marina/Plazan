@@ -8,6 +8,7 @@ function test(a, b) {
 //навигация, меню
 const button = document.querySelector(".burger");
 let menu = document.querySelector(".nav");
+let burgerButton = document.querySelector(".burger");
 
 button.addEventListener("click", function () {
   menu.classList.toggle("active");
@@ -19,7 +20,6 @@ overlay.addEventListener("click", function () {
 });
 
 function burgerMenu() {
-  let burgerButton = document.querySelector(".burger");
   burgerButton.addEventListener("click", function () {
     burgerButton.classList.toggle("burger_active");
   });
