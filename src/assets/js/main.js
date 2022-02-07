@@ -70,7 +70,7 @@ for (let anchor of anchors) {
 }
 
 function plusMinus1() {
-  let block = document.querySelector(".answers__details1");
+  let block = document.querySelector(".summary1");
   let plus = document.querySelector(".plus1");
   block.addEventListener("click", function () {
     plus.classList.toggle("plus1_new");
@@ -79,7 +79,7 @@ function plusMinus1() {
 plusMinus1();
 
 function plusMinus2() {
-  let block = document.querySelector(".answers__details2");
+  let block = document.querySelector(".summary2");
   let plus = document.querySelector(".plus2");
   block.addEventListener("click", function () {
     plus.classList.toggle("plus2_active");
@@ -87,7 +87,7 @@ function plusMinus2() {
 }
 plusMinus2();
 function plusMinus3() {
-  let block = document.querySelector(".answers__details3");
+  let block = document.querySelector(".summary3");
   let plus = document.querySelector(".plus3");
   block.addEventListener("click", function () {
     plus.classList.toggle("plus3_active");
