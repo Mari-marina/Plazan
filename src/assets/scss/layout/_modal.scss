@@ -8,7 +8,7 @@
   bottom: 0;
   right: 0;
   position: fixed;
-  opacity: 90%;
+  // opacity: 90%;
   align-items: center;
 }
 
@@ -50,6 +50,9 @@
   );
   background: -moz-linear-gradient(180deg, rgb(85, 182, 225), rgb(0, 145, 182));
   background: linear-gradient(180deg, rgb(85, 182, 225), rgb(0, 145, 182));
+}
+.modal__button:hover {
+  background-color: #5eb0f3;
 }
 .modal__form {
   display: flex;
