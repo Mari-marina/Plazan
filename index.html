@@ -38,8 +38,9 @@
                                 </li>
                             </ul>
                             <div class="sticky__header__phone">
-                                <a class="sticky__phone__link" href="#">заказать звонок</a>
-                                <div class="sticky__phone"><a href="tel:+79251230362">+7 925 123 0362</a></div>
+                                <p class="sticky__phone__link" id="modalOpen1">заказать звонок</p>
+                                <div class="sticky__phone"><a href="tel:+79251230362">+7 925 123 0362</a>
+                                </div>
 
                             </div>
                         </div>
@@ -72,7 +73,7 @@
 
                     <div class="header__phone">
                         <div class="phone"><a href="tel:+79251230362">+7 925 123 0362</a></div>
-                        <a class="header__phone__link" href="#">заказать звонок</a>
+                        <p class="header__phone__link mod" id="modalOpen">заказать звонок</p>
                     </div>
                 </div>
 
@@ -82,11 +83,6 @@
                         <div class="fix__nav__phone"><a href="tel:+79251230362">+7 925 123 0362</a></div>
                     </div>
                 </div>
-
-
-
-
-
 
 
 
@@ -481,9 +477,26 @@
         </div>
     </footer>
 
+    <button id="modalOpen">Заказать звонок</button>
+
+    <div class="modal">
+        <div class="modal-wrapper">
+            <div class="modal-header">
+                <img class="close-btn" src="./assets/images/cross.png" alt="">
+                <!-- <span class="close-btn">X</span> -->
+                <form class="modal__form">
+                    <input class="modal__input_name" type="text" name="name" placeholder="Представьтесь">
+                    <input class="modal__input_mail" type="tel" placeholder="Ваш номер телефона">
+                    <textarea class="modal__textarea" name="user_message"
+                        placeholder="В двух словах опишите вашу задачу"></textarea>
+                    <button class="modal__button">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
 
-    <!-- <script src="./../src/assets/js/main.js"></script> -->
+
     <script src="assets/js/script.js"></script>
 </body>
 

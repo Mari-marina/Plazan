@@ -102,4 +102,25 @@ function plusMinus3() {
 }
 plusMinus3();
 
+let openModalBtn = document.getElementById("modalOpen");
+let openModalBtn1 = document.getElementById("modalOpen1");
+let modal = document.querySelector(".modal");
+let closeModalBtn = document.querySelector(".close-btn");
+
+openModalBtn.addEventListener("click", function () {
+  modal.style.display = "flex";
+});
+openModalBtn1.addEventListener("click", function () {
+  modal.style.display = "flex";
+});
+
+closeModalBtn.addEventListener("click", function () {
+  modal.style.display = "none";
+});
+window.addEventListener("click", function (event) {
+  if (event.target === modal) {
+    modal.style.display = "none";
+  }
+});
+
 //# sourceMappingURL=script.js.map
