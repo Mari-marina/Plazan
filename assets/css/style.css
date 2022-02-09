@@ -5483,7 +5483,7 @@ details[open] {
 
 .modal-wrapper {
     max-width: 272px;
-    max-height: 265px;
+    max-height: 280px;
     width: 100%;
     height: 100%;
     background: #0091b6;
@@ -5495,7 +5495,7 @@ details[open] {
     -o-border-radius: 5px;
 }
 
-.questions__button {
+.modal__button {
     width: 157px;
     height: 36px;
     color: #ffffff;
@@ -5514,7 +5514,7 @@ details[open] {
     background: linear-gradient(180deg, #55b6e1, #0091b6);
 }
 
-.questions__form {
+.modal__form {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -5523,9 +5523,9 @@ details[open] {
     align-items: center;
 }
 
-.questions__input_name,
-.questions__input_mail,
-.questions__textarea {
+.modal__input_name,
+.modal__input_mail,
+.modal__textarea {
     border-width: initial;
     border-style: none;
     border-color: initial;
@@ -5539,4 +5539,15 @@ details[open] {
     max-width: 214px;
     width: 100%;
     margin-bottom: 15px;
+}
+
+.modal-header {
+    margin-top: 6px;
+}
+
+.close-btn {
+    margin-left: 238px;
+    margin-bottom: 10px;
+    width: 24px;
+    height: 24px;
 }
