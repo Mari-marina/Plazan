@@ -3954,7 +3954,6 @@ details[open] {
   bottom: 0;
   right: 0;
   position: fixed;
-  opacity: 90%;
   align-items: center; }
 
 .modal-wrapper {
@@ -3989,6 +3988,9 @@ details[open] {
   background: -webkit-linear-gradient(180deg, #55b6e1, #0091b6);
   background: -moz-linear-gradient(180deg, #55b6e1, #0091b6);
   background: linear-gradient(180deg, #55b6e1, #0091b6); }
+
+.modal__button:hover {
+  background-color: #5eb0f3; }
 
 .modal__form {
   display: flex;

@@ -5514,6 +5514,10 @@ details[open] {
     background: linear-gradient(180deg, #55b6e1, #0091b6);
 }
 
+.modal__button:hover {
+    background-color: #5eb0f3;
+}
+
 .modal__form {
     display: -ms-flexbox;
     display: flex;
