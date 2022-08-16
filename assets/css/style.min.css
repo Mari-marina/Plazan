@@ -3860,7 +3860,8 @@ details[open] {
     font-size: 18px;
     font-family: Lato-Ligh;
     color: #91d2df;
-    border-bottom: solid 1px #ffffff; }
+    border-bottom: solid 1px #ffffff;
+    cursor: pointer; }
     .sticky__phone__link:hover {
       color: black;
       border-bottom: solid 1px black; }

@@ -5476,7 +5476,6 @@ details[open] {
     bottom: 0;
     right: 0;
     position: fixed;
-    opacity: 90%;
     -ms-flex-align: center;
     align-items: center;
 }
