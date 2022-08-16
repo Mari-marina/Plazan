@@ -5314,6 +5314,7 @@ details[open] {
     font-family: Lato-Ligh;
     color: #91d2df;
     border-bottom: solid 1px #ffffff;
+    cursor: pointer;
 }
 
 .sticky__phone__link:hover {
@@ -5553,4 +5554,5 @@ details[open] {
     margin-bottom: 10px;
     width: 24px;
     height: 24px;
+    cursor: pointer;
 }
